@@ -1,6 +1,40 @@
+@import "variables";
+
 .navigation {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
     .nav-first {
         display: flex;
+        gap: 2rem;
+        align-items: center;
+        width: 70%;
+        .navigation-logo img {
+            width: 4rem;
+        }
+        .navigation-links {
+            display: flex;
+            gap: 2rem;
+            a {
+                text-decoration: none;
+                color: inherit;
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+            }
+        }
+    }
+
+    .nav-second {
+        display: flex;
+        gap: 2rem;
+        a {
+            text-decoration: none;
+            color: inherit;
+            &:first-child {
+                color: $deepblue;
+            }
+        }
     }
 }

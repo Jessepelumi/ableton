@@ -1,6 +1,7 @@
 import abletonBlack from "../assets/image/abletonBlack.png";
 import { Link } from "react-router-dom";
 import "../sass/navbar.css"
+import { Plus } from "@phosphor-icons/react";
 
 const Navbar = () => {
     return (
@@ -24,14 +25,15 @@ const Navbar = () => {
                     <Link to="/help">Help</Link>
                     <Link to="/more">
                         More
+                        <Plus size={16} weight="bold" />
                     </Link>
                 </div>
 
             </div>
 
             <div className="nav-second">
-                <Link to="/trial">Try live for free</Link>
-                <Link to="/login">Login or register</Link>
+                <Link to="/trial">Try Live for free</Link>
+                <Link to="/login">Log in or register</Link>
             </div>
         </nav>
     );

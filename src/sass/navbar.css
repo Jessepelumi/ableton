@@ -1,6 +1,37 @@
 .navigation {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
 }
 .navigation .nav-first {
   display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 70%;
+}
+.navigation .nav-first .navigation-logo img {
+  width: 4rem;
+}
+.navigation .nav-first .navigation-links {
+  display: flex;
+  gap: 2rem;
+}
+.navigation .nav-first .navigation-links a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.navigation .nav-second {
+  display: flex;
+  gap: 2rem;
+}
+.navigation .nav-second a {
+  text-decoration: none;
+  color: inherit;
+}
+.navigation .nav-second a:first-child {
+  color: #0000FF;
 }/*# sourceMappingURL=navbar.css.map */

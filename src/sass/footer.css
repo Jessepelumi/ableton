@@ -1,6 +1,5 @@
 .footer {
   padding: 0 6rem 6rem;
-  background-color: red;
 }
 
 .footer-text {
@@ -9,9 +8,30 @@
 }
 
 .footer-first {
+  font-size: 1.1rem;
   display: flex;
   justify-content: start;
   padding-bottom: 4rem;
+}
+.footer-first h2 {
+  font-size: inherit;
+}
+.footer-first .socials {
+  display: flex;
+  gap: 1rem;
+}
+.footer-first .socials .facebook {
+  color: #0000FF;
+}
+.footer-first .socials .twitter {
+  color: #B1C5FF;
+}
+.footer-first .socials .youtube {
+  color: #FF0000;
+}
+.footer-first .socials .instagram {
+  -moz-columns: #FF764D;
+       columns: #FF764D;
 }
 
 .footer-second {
@@ -19,20 +39,52 @@
   gap: 1rem;
   padding-bottom: 4rem;
 }
+.footer-second h2 {
+  font-size: inherit;
+}
 
 .cell {
   display: flex;
   flex-direction: column;
   width: 33.3333333333%;
+  gap: 0.5rem;
 }
 .cell a {
   text-decoration: none;
   color: inherit;
+  display: flex;
+  align-items: center;
+}
+.cell form input {
+  width: 65%;
+  outline: none;
+  border: none;
+  background-color: #D3D3D3;
+  font-size: inherit;
+  padding: 0.6rem 0.5rem;
+}
+.cell form button {
+  width: 30%;
+  padding: 0.6rem 0.5rem;
+  border: none;
+  font-size: inherit;
+  background-color: #0000FF;
+  color: #D3D3D3;
 }
 
 .footer-nav {
+  font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.footer-nav .links {
+  display: flex;
+  gap: 0.5rem;
+}
+.footer-nav .links a {
+  text-decoration: none;
+  color: inherit;
 }
 .footer-nav .footer-img {
   display: flex;
@@ -40,6 +92,6 @@
   align-items: center;
   gap: 0.5rem;
 }
-.footer-nav img {
+.footer-nav .footer-img img {
   width: 3rem;
 }/*# sourceMappingURL=footer.css.map */
