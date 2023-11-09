@@ -12,6 +12,7 @@ import More from "./components/More";
 import Trial from "./components/Trial";
 import Login from "./components/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./sass/App.css";
 
 
 function App() {

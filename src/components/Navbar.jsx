@@ -1,11 +1,12 @@
-import abletonBlack from "../assets/image/abletonBlack.png"
+import abletonBlack from "../assets/image/abletonBlack.png";
 import { Link } from "react-router-dom";
+import "../sass/navbar.css"
 
 const Navbar = () => {
     return (
         <nav className="navigation">
 
-            <div>
+            <div className="nav-first">
 
                 <div className="navigation-logo">
                     <Link to="/">
@@ -28,7 +29,7 @@ const Navbar = () => {
 
             </div>
 
-            <div>
+            <div className="nav-second">
                 <Link to="/trial">Try live for free</Link>
                 <Link to="/login">Login or register</Link>
             </div>
