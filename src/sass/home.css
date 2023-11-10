@@ -1,7 +1,6 @@
 .home .first {
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 .home .first .first-image1 {
   width: 58%;
@@ -46,7 +45,7 @@
   display: flex;
   position: absolute;
   top: 70%;
-  left: 40%;
+  left: 41%;
 }
 .home .first .first-image3 div {
   position: relative;
@@ -62,4 +61,34 @@
 }
 .home .first .first-image3 div div a {
   color: inherit;
+}
+.home .second {
+  padding: 7rem;
+}
+.home .second .latest nav {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.home .second .latest nav h2 {
+  width: 50%;
+}
+.home .second .latest nav div {
+  width: 50%;
+}
+.home .second .latest nav div a {
+  text-decoration: none;
+  color: #0000FF;
+}
+.home .second .latest div {
+  display: flex;
+  justify-content: space-between;
+}
+.home .second .latest div div {
+  width: 30.303030303%;
+  display: flex;
+  flex-direction: column;
+}
+.home .second .latest div div img {
+  width: 100%;
 }/*# sourceMappingURL=home.css.map */
