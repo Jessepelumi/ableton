@@ -20,18 +20,24 @@
   display: flex;
   gap: 1rem;
 }
+.footer-first .socials a {
+  padding: 0.5rem;
+}
 .footer-first .socials .facebook {
-  color: #0000FF;
+  color: white;
+  background-color: #0000FF;
 }
 .footer-first .socials .twitter {
-  color: #B1C5FF;
+  color: white;
+  background-color: #B1C5FF;
 }
 .footer-first .socials .youtube {
-  color: #FF0000;
+  color: white;
+  background-color: #FF0000;
 }
 .footer-first .socials .instagram {
-  -moz-columns: #FF764D;
-       columns: #FF764D;
+  color: white;
+  background-color: #FF764D;
 }
 
 .footer-second {

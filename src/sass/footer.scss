@@ -20,17 +20,24 @@
     .socials {
         display: flex;
         gap: 1rem;
+        a {
+            padding: 0.5rem;
+        }
         .facebook {
-            color: $deepblue;
+            color: white;
+            background-color: $deepblue;
         }
         .twitter {
-            color: $powderblue;
+            color: white;
+            background-color: $powderblue;
         }
         .youtube {
-            color: $red;
+            color: white;
+            background-color: $red;
         }
         .instagram {
-            columns: $orange;
+            color: white;
+            background-color: $orange;
         }
     }
 }

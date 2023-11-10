@@ -113,6 +113,7 @@
   align-items: center;
   background-color: #D3D3D3;
   padding-block: 5rem;
+  font-size: 1.5rem;
 }
 .home .third div {
   display: flex;

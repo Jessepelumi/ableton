@@ -28,16 +28,16 @@ const Footer = () => {
                     <div className="socials">
 
                         <a href="http://facebook.com/ableton" target="_blank" className="facebook">
-                            <FacebookLogo size={32} />
+                            <FacebookLogo size={32} weight="fill" />
                         </a>
                         <a href="http://twitter.com/ableton" target="_blank" className="twitter">
-                            <TwitterLogo size={32} />
+                            <TwitterLogo size={32} weight="fill" />
                         </a>
                         <a href="http://youtube.com/ableton" target="_blank" className="youtube">
-                            <YoutubeLogo size={32} />
+                            <YoutubeLogo size={32} weight="fill" />
                         </a>
                         <a href="http://instagram.com/ableton" target="_blank" className="instagram">
-                            <InstagramLogo size={32} />
+                            <InstagramLogo size={32} weight="fill" />
                         </a>
 
                     </div>
