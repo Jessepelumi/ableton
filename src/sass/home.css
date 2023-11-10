@@ -65,6 +65,9 @@
 .home .second {
   padding: 7rem;
 }
+.home .second .latest {
+  padding-bottom: 5rem;
+}
 .home .second .latest nav {
   display: flex;
   align-items: center;
@@ -75,10 +78,15 @@
 }
 .home .second .latest nav div {
   width: 50%;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
 }
 .home .second .latest nav div a {
   text-decoration: none;
   color: #0000FF;
+  display: flex;
+  align-items: center;
 }
 .home .second .latest div {
   display: flex;
@@ -87,8 +95,34 @@
 .home .second .latest div div {
   width: 30.303030303%;
   display: flex;
+  gap: 1rem;
   flex-direction: column;
 }
 .home .second .latest div div img {
   width: 100%;
+}
+.home .second .latest div div span {
+  background-color: red;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.3rem;
+}
+.home .third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D3D3D3;
+  padding-block: 5rem;
+}
+.home .third div {
+  display: flex;
+  gap: 1rem;
+}
+.home .third div nav {
+  display: flex;
+  justify-content: space-between;
+}
+.home .third div nav a {
+  text-decoration: none;
+  color: #0000FF;
 }/*# sourceMappingURL=home.css.map */

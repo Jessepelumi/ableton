@@ -73,6 +73,7 @@
     .second {
         padding: 7rem;
         .latest {
+            padding-bottom: 5rem;
             nav {
                 display: flex;
                 //justify-content: space-between;
@@ -83,12 +84,14 @@
                 }
                 div {
                     width: 50%;
-                    // display: flex;
-                    // justify-items: end;
-                    // justify-content: space-between;
+                    display: flex;
+                    gap: 2rem;
+                    justify-content: flex-end;
                     a {
                         text-decoration: none;
                         color: $deepblue;
+                        display: flex;
+                        align-items: center;
                     }
                 }
             }
@@ -99,10 +102,36 @@
                 div {
                     width: (100% /3.3);
                     display: flex;
+                    gap: 1rem;
                     flex-direction: column;
                     img {
                         width: 100%;
                     }
+                    span {
+                        background-color: red;
+                        width: fit-content;
+                        padding: 0.3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .third {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $lightgray;
+        padding-block: 5rem;
+        div {
+            display: flex;
+            gap: 1rem;
+            nav {
+                display: flex;
+                justify-content: space-between;
+                a {
+                    text-decoration: none;
+                    color: $deepblue;
                 }
             }
         }
