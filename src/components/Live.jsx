@@ -65,8 +65,11 @@ const Live = () => {
 
             <div className="perfect-take">
                 <div>
-                    <h2>Create your perfect take</h2>
-                    <div className="perfect-take-header">
+                    <div className="perfect-take-heading">
+                        <h2>Create your perfect take</h2>
+                    </div>
+
+                    <div className="perfect-take-video">
                         <a href="https://www.youtube.com/watch?v=StDHuDdDANc" target="_blank">
                             <figure>
                                 <img src="https://ableton-production.imgix.net/live/poster-comping.jpg?auto=compress%2Cformat&w=1680" alt="" />
@@ -79,18 +82,16 @@ const Live = () => {
 
                     <div className="perfect-take-text">
                         <div>
-                            <div>
-                                <h2>Take recording and comping</h2>
-                                <p>
-                                    Live organizes multiple passes of an audio or MIDI performance into individual takes. Pick the best moments of each performance and combine them to create your perfect take. Or approach sound design in a new way by splicing together random samples from your library.
-                                </p>
-                            </div>
-                            <div>
-                                <h2>Linked-Track Editing</h2>
-                                <p>
-                                    Link two or more tracks to edit their content simultaneously. This makes editing multi-tracked instruments or performances with multiple musicians easy and fast whilst keeping everything in time across tracks. This feature also works for MIDI tracks.
-                                </p>
-                            </div>
+                            <h2>Take recording and comping</h2>
+                            <p>
+                                Live organizes multiple passes of an audio or MIDI performance into individual takes. Pick the best moments of each performance and combine them to create your perfect take. Or approach sound design in a new way by splicing together random samples from your library.
+                            </p>
+                        </div>
+                        <div>
+                            <h2>Linked-Track Editing</h2>
+                            <p>
+                                Link two or more tracks to edit their content simultaneously. This makes editing multi-tracked instruments or performances with multiple musicians easy and fast whilst keeping everything in time across tracks. This feature also works for MIDI tracks.
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -79,20 +79,20 @@
     }
 
     .perfect-take {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         div {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            h2 {
-                padding-block: 3rem;
-                font-size: 7rem;
-                font-weight: lighter;
+            .perfect-take-heading {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h2 {
+                    padding-block: 3rem;
+                    font-size: 7rem;
+                    font-weight: lighter;
+                }
             }
-            .perfect-take-header {
+            .perfect-take-video {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -117,6 +117,11 @@
             .perfect-take-text {
                 display: flex;
                 flex-direction: row;
+                justify-content: center;
+                //align-items: center;
+                //justify-content: space-between;
+                //justify-items: flex-start;
+                width: 80%;
                 div {
                     width: 50%;
                     h2 {

@@ -66,46 +66,46 @@
 .live .try-live .try-live-features div div img {
   width: 100%;
 }
-.live .perfect-take {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .live .perfect-take div {
   display: flex;
   flex-direction: column;
+}
+.live .perfect-take div .perfect-take-heading {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.live .perfect-take div h2 {
+.live .perfect-take div .perfect-take-heading h2 {
   padding-block: 3rem;
   font-size: 7rem;
   font-weight: lighter;
 }
-.live .perfect-take div .perfect-take-header {
+.live .perfect-take div .perfect-take-video {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.live .perfect-take div .perfect-take-header a {
+.live .perfect-take div .perfect-take-video a {
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   color: inherit;
 }
-.live .perfect-take div .perfect-take-header a figure {
+.live .perfect-take div .perfect-take-video a figure {
   width: 85%;
 }
-.live .perfect-take div .perfect-take-header a figure img {
+.live .perfect-take div .perfect-take-video a figure img {
   width: 100%;
 }
-.live .perfect-take div .perfect-take-header a figure figcaption {
+.live .perfect-take div .perfect-take-video a figure figcaption {
   font-size: small;
 }
 .live .perfect-take div .perfect-take-text {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  width: 80%;
 }
 .live .perfect-take div .perfect-take-text div {
   width: 50%;
