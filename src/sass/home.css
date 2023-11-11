@@ -63,7 +63,7 @@
   color: inherit;
 }
 .home .second {
-  padding: 7rem;
+  padding: 7rem 7rem 0;
 }
 .home .second .latest {
   padding-bottom: 5rem;
@@ -118,8 +118,10 @@
 .home .third div {
   display: flex;
   gap: 1rem;
+  width: 60%;
 }
 .home .third div nav {
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }

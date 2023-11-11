@@ -71,7 +71,7 @@
     }
 
     .second {
-        padding: 7rem;
+        padding: 7rem 7rem 0;
         .latest {
             padding-bottom: 5rem;
             nav {
@@ -127,7 +127,9 @@
         div {
             display: flex;
             gap: 1rem;
+            width: 60%;
             nav {
+                width: 80%;
                 display: flex;
                 justify-content: space-between;
                 a {

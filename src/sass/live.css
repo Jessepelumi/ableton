@@ -1,0 +1,115 @@
+.live nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 3rem;
+  border-top: 2px solid #D3D3D3;
+}
+.live nav a {
+  text-decoration: none;
+  color: inherit;
+}
+.live nav a:last-child {
+  color: #0000FF;
+}
+.live div .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 8rem;
+}
+.live div .header h1 {
+  font-size: 7rem;
+  font-weight: lighter;
+}
+.live div .header a {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #0000FF;
+}
+.live div .header-image img {
+  width: 100%;
+}
+.live .try-live {
+  padding: 6rem;
+  background-color: rgba(255, 255, 0, 0.8039215686);
+}
+.live .try-live .try-live-header {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding-bottom: 7rem;
+}
+.live .try-live .try-live-header a {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #0000FF;
+}
+.live .try-live .try-live-header span {
+  font-size: 0.9rem;
+}
+.live .try-live .try-live-features h2 {
+  padding-bottom: 2rem;
+  font-weight: lighter;
+  font-size: 2.5rem;
+}
+.live .try-live .try-live-features div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px 2px;
+}
+.live .try-live .try-live-features div div img {
+  width: 100%;
+}
+.live .perfect-take {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.live .perfect-take div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.live .perfect-take div h2 {
+  padding-block: 3rem;
+  font-size: 7rem;
+  font-weight: lighter;
+}
+.live .perfect-take div .perfect-take-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.live .perfect-take div .perfect-take-header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.live .perfect-take div .perfect-take-header a figure {
+  width: 85%;
+}
+.live .perfect-take div .perfect-take-header a figure img {
+  width: 100%;
+}
+.live .perfect-take div .perfect-take-header a figure figcaption {
+  font-size: small;
+}
+.live .perfect-take div .perfect-take-text {
+  display: flex;
+  flex-direction: row;
+}
+.live .perfect-take div .perfect-take-text div {
+  width: 50%;
+}
+.live .perfect-take div .perfect-take-text div h2 {
+  font-size: 2rem;
+}/*# sourceMappingURL=live.css.map */

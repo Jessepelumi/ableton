@@ -24,6 +24,9 @@
   gap: 0.5rem;
   align-items: center;
 }
+.navigation .nav-first .navigation-links a:active {
+  color: #FF764D;
+}
 .navigation .nav-second {
   display: flex;
   gap: 2rem;
