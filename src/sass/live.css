@@ -66,50 +66,138 @@
 .live .try-live .try-live-features div div img {
   width: 100%;
 }
-.live .perfect-take div {
+.live .live-options div {
   display: flex;
   flex-direction: column;
 }
-.live .perfect-take div .perfect-take-heading {
+.live .live-options div .live-options-heading {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.live .perfect-take div .perfect-take-heading h2 {
-  padding-block: 3rem;
+.live .live-options div .live-options-heading h2 {
+  padding: 3rem 6rem;
   font-size: 7rem;
   font-weight: lighter;
 }
-.live .perfect-take div .perfect-take-video {
+.live .live-options div .live-options-video {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.live .perfect-take div .perfect-take-video a {
+.live .live-options div .live-options-video a {
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   color: inherit;
 }
-.live .perfect-take div .perfect-take-video a figure {
+.live .live-options div .live-options-video a figure {
   width: 85%;
 }
-.live .perfect-take div .perfect-take-video a figure img {
+.live .live-options div .live-options-video a figure img {
   width: 100%;
 }
-.live .perfect-take div .perfect-take-video a figure figcaption {
+.live .live-options div .live-options-video a figure figcaption {
   font-size: small;
 }
-.live .perfect-take div .perfect-take-text {
+.live .live-options div .live-options-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+.live .live-options div .live-options-text .live-options-features {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 80%;
+  justify-content: space-between;
 }
-.live .perfect-take div .perfect-take-text div {
-  width: 50%;
+.live .live-options div .live-options-text .live-options-features div {
+  width: 45%;
 }
-.live .perfect-take div .perfect-take-text div h2 {
+.live .live-options div .live-options-text .live-options-features div h2 {
+  font-weight: lighter;
   font-size: 2rem;
+}
+.live .live-options div .live-options-text .live-options-features div p {
+  padding-block: 1rem;
+  font-size: 1.1rem;
+}
+.live .learn-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6rem;
+}
+.live .learn-more button {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #0000FF;
+  background-color: transparent;
+  border: 2px solid #0000FF;
+}
+.live .learn-more-text {
+  display: flex;
+  padding: 6rem;
+  justify-content: space-between;
+}
+.live .learn-more-text div {
+  width: 45%;
+}
+.live .learn-more-text div img {
+  width: 100%;
+}
+.live .learn-more-text div div {
+  width: 100%;
+}
+.live .learn-more-text div div h2 {
+  padding-block: 2rem;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+.live .experiment {
+  padding: 6rem;
+  background-color: #B6FFC0;
+}
+.live .experiment .experiment-heading h2 {
+  font-size: 6.5rem;
+  font-weight: lighter;
+  width: 70%;
+}
+.live .stage {
+  padding-block: 6rem;
+}
+.live .stage .stage-heading h2 {
+  padding: 6rem;
+  font-size: 6.5rem;
+  font-weight: lighter;
+}
+.live .stage .stage-tempo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.live .stage .stage-tempo .tempo-video {
+  width: 60%;
+}
+.live .stage .stage-tempo .tempo-video a {
+  text-decoration: none;
+  color: inherit;
+}
+.live .stage .stage-tempo .tempo-video a img {
+  width: 100%;
+}
+.live .stage .stage-tempo .tempo-text {
+  width: 25%;
+}
+.live .stage .stage-tempo .tempo-text h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-block: 1rem;
 }/*# sourceMappingURL=live.css.map */

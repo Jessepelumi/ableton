@@ -78,21 +78,21 @@
         }
     }
 
-    .perfect-take {
+    .live-options {
         div {
             display: flex;
             flex-direction: column;
-            .perfect-take-heading {
+            .live-options-heading {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 h2 {
-                    padding-block: 3rem;
+                    padding: 3rem 6rem;
                     font-size: 7rem;
                     font-weight: lighter;
                 }
             }
-            .perfect-take-video {
+            .live-options-video {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -114,19 +114,108 @@
                     
                 }
             }
-            .perfect-take-text {
+            .live-options-text {
                 display: flex;
-                flex-direction: row;
                 justify-content: center;
-                //align-items: center;
-                //justify-content: space-between;
-                //justify-items: flex-start;
-                width: 80%;
-                div {
-                    width: 50%;
-                    h2 {
-                        font-size: 2rem;
+                align-items: center;
+                padding: 6rem;
+                .live-options-features {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    div {
+                        width: 45%;
+                        h2 {
+                            font-weight: lighter;
+                            font-size: 2rem;
+                        }
+                        p {
+                            padding-block: 1rem;
+                            font-size: 1.1rem;
+                        }
                     }
+                }
+            }
+        }
+    }
+
+    .learn-more {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 6rem;
+        button {
+            width: 100%;
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            font-size: 1.5rem;
+            color: $deepblue;
+            background-color: transparent;
+            border: 2px solid $deepblue;
+        }
+    }
+
+    .learn-more-text {
+        display: flex;
+        padding: 6rem;
+        justify-content: space-between;
+        div {
+            width: 45%;
+            img {
+                width: 100%;
+            }
+            div {
+                width: 100%;
+                h2 {
+                    padding-block: 2rem;
+                    font-weight: lighter;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .experiment {
+        padding: 6rem;
+        background-color: $lightgreen;
+        .experiment-heading h2 {
+            font-size: 6.5rem;
+            font-weight: lighter;
+            width: 70%;
+        }
+    }
+
+    .stage {
+        padding-block: 6rem;
+        .stage-heading h2 {
+            padding: 6rem;
+            font-size: 6.5rem;
+            font-weight: lighter;
+        }
+        .stage-tempo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .tempo-video {
+                width: 60%;
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .tempo-text {
+                width: 25%;
+                h2 {
+                    font-size: 2rem;
+                    font-weight: lighter;
+                    padding-block: 1rem;
                 }
             }
         }
