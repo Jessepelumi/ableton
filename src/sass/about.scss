@@ -50,7 +50,7 @@
             height: 100vh;
             display: flex;
             position: relative;
-            .first {
+            .image2-first {
                 width: 40%;
                 img {
                     width: 40%;
@@ -62,7 +62,7 @@
                     object-fit: cover;
                 }
             }
-            .second {
+            .image2-second {
                 background-color: $yellow;
                 width: 60%;
                 display: flex;
@@ -102,6 +102,93 @@
                         font-size: 0.8rem;
                         padding-left: 1rem;
                     }
+                }
+            }
+        }
+        .header-image3 {
+            height: 100vh;
+            display: flex;
+            position: relative;
+            .image3-first {
+                width: 60%;
+                background-color: $lightgreen;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5rem;
+                div {
+                    width: 50%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .image3-second {
+                width: 40%;
+                img {
+                    width: 40%;
+                    height: 70%;
+                    position: absolute;
+                    top: 50%;
+                    right: 30%;
+                    transform: translateY(-50%) translateX(50%);
+                    object-fit: cover;
+                }
+            }
+        }
+        .header-image4 {
+            width: 85%;
+            img {
+                width: 100%;
+            }
+        }
+        .header-image5 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+            .image5-container {
+                background-color: $magenta;
+                width: 60%;
+                .image5-first {
+                    img {
+                        width: 30%;
+                        position: absolute;
+                        top: 50%;
+                        left: 30%;
+                        transform: translateY(-50%) translateX(-50%);
+                        object-fit: cover;
+                    }
+                }
+                .image5-second {
+                    img {
+                        width: 50%;
+                        position: absolute;
+                        top: 50%;
+                        right: 30%;
+                        transform: translateY(-50%) translateX(50%);
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .header-image6 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div {
+                width: 80%;
+                display: flex;
+                .image6 {
+                    img {
+                        width: 100%;
+                    }
+                }
+                .image6-text {
+                    display: flex;
+                    flex-direction: column;
                 }
             }
         }

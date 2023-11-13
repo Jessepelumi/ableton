@@ -48,10 +48,10 @@
   display: flex;
   position: relative;
 }
-.about .header .header-image2 .first {
+.about .header .header-image2 .image2-first {
   width: 40%;
 }
-.about .header .header-image2 .first img {
+.about .header .header-image2 .image2-first img {
   width: 40%;
   height: 70%;
   position: absolute;
@@ -61,14 +61,14 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-.about .header .header-image2 .second {
+.about .header .header-image2 .image2-second {
   background-color: rgba(255, 255, 0, 0.8039215686);
   width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about .header .header-image2 .second img {
+.about .header .header-image2 .image2-second img {
   width: 55%;
 }
 .about .header .header-video {
@@ -100,4 +100,88 @@
 .about .header .header-video a figure figcaption {
   font-size: 0.8rem;
   padding-left: 1rem;
+}
+.about .header .header-image3 {
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.about .header .header-image3 .image3-first {
+  width: 60%;
+  background-color: #B6FFC0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.about .header .header-image3 .image3-first div {
+  width: 50%;
+}
+.about .header .header-image3 .image3-first div img {
+  width: 100%;
+}
+.about .header .header-image3 .image3-second {
+  width: 40%;
+}
+.about .header .header-image3 .image3-second img {
+  width: 40%;
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  transform: translateY(-50%) translateX(50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .header .header-image4 {
+  width: 85%;
+}
+.about .header .header-image4 img {
+  width: 100%;
+}
+.about .header .header-image5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.about .header .header-image5 .image5-container {
+  background-color: #D5D3FF;
+  width: 60%;
+}
+.about .header .header-image5 .image5-container .image5-first img {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translateY(-50%) translateX(-50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .header .header-image5 .image5-container .image5-second img {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  transform: translateY(-50%) translateX(50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .header .header-image6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .header .header-image6 div {
+  width: 80%;
+  display: flex;
+}
+.about .header .header-image6 div .image6 img {
+  width: 100%;
+}
+.about .header .header-image6 div .image6-text {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=about.css.map */
