@@ -11,6 +11,7 @@ import Help from "./components/Help";
 import More from "./components/More";
 import Trial from "./components/Trial";
 import Login from "./components/Login";
+import About from "./components/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./sass/App.css";
 
@@ -33,6 +34,7 @@ function App() {
             <Route path="/more" element={<More/>}/>
             <Route path="/trial" element={<Trial/>}/>
             <Route path="/login" element={<Login/>}/>
+            <Route path="/about" element={<About/>}/>
           </Routes>
         </div>
         <Footer />
