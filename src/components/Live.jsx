@@ -1,8 +1,14 @@
 import "../sass/live.css";
 import { Link } from "react-router-dom";
 import { PlayCircle, CaretRight, Plus } from "@phosphor-icons/react";
+import { useEffect } from "react";
 
 const Live = () => {
+
+    useEffect(() => {
+        document.title = "What's new in Live 11 | Ableton";
+    }, []);
+
     return (
         <div className="live">
             <nav>
@@ -42,22 +48,40 @@ const Live = () => {
                     <h2>Explore the features in Live 11:</h2>
                     <div>
                         <div>
-                            <img src="https://ableton-production.imgix.net/live/jump-nav-comping.jpg" alt="" />
+                            <div className="features-container">
+                                <img src="https://ableton-production.imgix.net/live/jump-nav-comping.jpg" alt="" />
+                                <span>Create your perfect take with comping</span>
+                            </div>
                         </div>
                         <div>
-                            <img src="https://ableton-production.imgix.net/live/jump-nav-comping.jpg" alt="" />
+                            <div className="features-container">
+                                <img src="https://ableton-production.imgix.net/live/jump-nav-mpe.jpg" alt="" />
+                                <span>Add more feeling to your music</span>
+                            </div>
                         </div>
                         <div>
-                            <img src="https://ableton-production.imgix.net/live/jump-nav-comping.jpg" alt="" />
+                            <div className="features-container">
+                                <img src="https://ableton-production.imgix.net/live/jump-nav-new-devices.jpg" alt="" />
+                                <span>Experiment with new devices</span>
+                            </div>
                         </div>
                         <div>
-                            <img src="https://ableton-production.imgix.net/live/jump-nav-comping.jpg" alt="" />
+                            <div className="features-container">
+                                <img src="https://ableton-production.imgix.net/live/jump-nav-performance-improvements.jpg" alt="" />
+                                <span>Do more on stage</span>
+                            </div>
                         </div>
                         <div>
-                            <img src="https://ableton-production.imgix.net/live/jump-nav-comping.jpg" alt="" />
+                            <div className="features-container">
+                                <img src="https://ableton-production.imgix.net/live/jump-nav-chance-tools.jpg" alt="" />
+                                <span>Be unpredictable</span>
+                            </div>
                         </div>
                         <div>
-                            <img src="https://ableton-production.imgix.net/live/jump-nav-comping.jpg" alt="" />
+                            <div className="features-container">
+                                <img src="https://ableton-production.imgix.net/live/jump-nav-new-sounds.jpg" alt="" />
+                                <span>Work with new and updated sounds</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,7 +96,10 @@ const Live = () => {
                     <div className="live-options-video">
                         <a href="https://www.youtube.com/watch?v=StDHuDdDANc" target="_blank">
                             <figure>
-                                <img src="https://ableton-production.imgix.net/live/poster-comping.jpg?auto=compress%2Cformat&w=1680" alt="" />
+                                <div>
+                                    <img src="https://ableton-production.imgix.net/live/poster-comping.jpg?auto=compress%2Cformat&w=1680" alt="" />
+                                    <span><PlayCircle size={200} weight="fill" /></span>
+                                </div>
                                 <figcaption>
                                     Artist records and edits multiple takes of her voice and a MIDI keyboard using comping
                                 </figcaption>
@@ -108,7 +135,10 @@ const Live = () => {
                     <div className="live-options-video">
                         <a href="https://www.youtube.com/watch?v=OP6EKAggYyE" target="_blank">
                             <figure>
-                                <img src="https://ableton-production.imgix.net/live/poster-mpe.jpg?auto=compress%2Cformat&w=1680" alt="" />
+                                <div>
+                                    <img src="https://ableton-production.imgix.net/live/poster-mpe.jpg?auto=compress%2Cformat&w=1680" alt="" />
+                                    <span><PlayCircle size={200} weight="fill" /></span>
+                                </div>
                                 <figcaption>
                                 Artist demonstrates MPE using a Roli Seaboard, Push and Live 11's new Note Expression View
                                 </figcaption>

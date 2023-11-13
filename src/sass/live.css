@@ -61,10 +61,34 @@
 .live .try-live .try-live-features div {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 5px 2px;
+  gap: 1px;
 }
-.live .try-live .try-live-features div div img {
+.live .try-live .try-live-features div div .features-container {
+  position: relative;
+}
+.live .try-live .try-live-features div div .features-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.live .try-live .try-live-features div div .features-container img {
   width: 100%;
+}
+.live .try-live .try-live-features div div .features-container span {
+  width: 60%;
+  z-index: 99;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+  font-size: 1.6rem;
 }
 .live .live-options div {
   display: flex;
@@ -95,8 +119,18 @@
 .live .live-options div .live-options-video a figure {
   width: 85%;
 }
-.live .live-options div .live-options-video a figure img {
+.live .live-options div .live-options-video a figure div {
+  position: relative;
+}
+.live .live-options div .live-options-video a figure div img {
   width: 100%;
+}
+.live .live-options div .live-options-video a figure div span {
+  color: #0000FF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
 }
 .live .live-options div .live-options-video a figure figcaption {
   font-size: small;

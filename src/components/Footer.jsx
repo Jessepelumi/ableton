@@ -16,7 +16,7 @@ const Footer = () => {
                         Register Live or Push
                         <CaretRight size={12} />
                     </Link>
-                    <Link>
+                    <Link to="/about">
                         About Ableton
                         <CaretRight size={12} />
                     </Link>

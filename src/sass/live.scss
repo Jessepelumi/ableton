@@ -68,10 +68,34 @@
             div {
                 display: grid;
                 grid-template-columns: auto auto auto;
-                gap: 5px 2px;
+                gap:  1px;
                 div {
-                    img {
-                        width: 100%;
+                    .features-container {
+                        position: relative;
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            left: 0;
+                            bottom: 0;
+                            background-color: rgba(0, 0, 0, 0.5);
+                            z-index: 1;
+                        }
+                        img {
+                            width: 100%;
+                        }
+                        span {
+                            width: 60%;
+                            z-index: 99;
+                            color: white;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translateY(-50%) translateX(-50%);
+                            text-align: center;
+                            font-size: 1.6rem;
+                        }
                     }
                 }
             }
@@ -104,8 +128,18 @@
                     color: inherit;
                     figure {
                         width: 85%;
-                        img {
-                            width: 100%;
+                        div {
+                            position: relative;
+                            img {
+                                width: 100%;
+                            }
+                            span {
+                                color: $deepblue;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translateY(-50%) translateX(-50%);
+                            }
                         }
                         figcaption {
                             font-size: small;

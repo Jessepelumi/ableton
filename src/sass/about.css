@@ -1,0 +1,103 @@
+.about nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 3rem;
+  border-top: 2px solid #D3D3D3;
+}
+.about nav a {
+  text-decoration: none;
+  color: inherit;
+}
+.about .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about .header .header-image {
+  width: 80%;
+  position: relative;
+}
+.about .header .header-image img {
+  width: 100%;
+}
+.about .header .header-image h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  font-size: 8rem;
+  font-weight: lighter;
+  color: #FF764D;
+}
+.about .header .header-text {
+  width: 45%;
+  padding-block: 5rem;
+}
+.about .header .header-text h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+.about .header .header-text h2 a {
+  text-decoration: none;
+  color: #0000FF;
+}
+.about .header .header-image2 {
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.about .header .header-image2 .first {
+  width: 40%;
+}
+.about .header .header-image2 .first img {
+  width: 40%;
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translateY(-50%) translateX(-50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .header .header-image2 .second {
+  background-color: rgba(255, 255, 0, 0.8039215686);
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .header .header-image2 .second img {
+  width: 55%;
+}
+.about .header .header-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.about .header .header-video a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.about .header .header-video a figure div {
+  position: relative;
+}
+.about .header .header-video a figure div img {
+  width: 100%;
+}
+.about .header .header-video a figure div span {
+  color: #0000FF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.about .header .header-video a figure figcaption {
+  font-size: 0.8rem;
+  padding-left: 1rem;
+}/*# sourceMappingURL=about.css.map */

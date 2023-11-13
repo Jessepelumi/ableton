@@ -1,0 +1,109 @@
+@import "variables";
+
+.about {
+    nav {
+        display: flex;
+        gap: 1rem;
+        padding: 1rem 3rem;
+        border-top: 2px solid $lightgray;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .header-image {
+            width: 80%;
+            position: relative;
+            img {
+                width: 100%;
+            }
+            h2 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateY(-50%) translateX(-50%);
+                font-size: 8rem;
+                font-weight: lighter;
+                color: $orange;
+            }
+        }
+        .header-text {
+            width: 45%;
+            padding-block: 5rem;
+            h2 {
+                font-size: 1.5rem;
+                font-weight: lighter;
+                padding-bottom: 1rem;
+                a {
+                    text-decoration: none;
+                    color: $deepblue;
+                }
+            }
+        }
+        .header-image2 {
+            height: 100vh;
+            display: flex;
+            position: relative;
+            .first {
+                width: 40%;
+                img {
+                    width: 40%;
+                    height: 70%;
+                    position: absolute;
+                    top: 50%;
+                    left: 30%;
+                    transform: translateY(-50%) translateX(-50%);
+                    object-fit: cover;
+                }
+            }
+            .second {
+                background-color: $yellow;
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 55%;
+                }
+            }
+        }
+        .header-video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: inherit;
+                figure {
+                    div {
+                        position: relative;
+                        img {
+                            width: 100%;
+                        }
+                        span {
+                            color: $deepblue;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translateY(-50%) translateX(-50%);
+                        }
+                    }
+                    figcaption {
+                        font-size: 0.8rem;
+                        padding-left: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
