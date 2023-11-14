@@ -1,7 +1,7 @@
 @import "variables";
 
 .live {
-    nav {
+    .live-nav {
         display: flex;
         gap: 1rem;
         padding: 1rem 3rem;
@@ -35,66 +35,168 @@
                 color: $deepblue;
             }
         }
-        .header-image img {
-            width: 100%;
+        .header-video {
+            position: relative;
+            figure {
+                div video {
+                    width: 100%;
+                }
+                figcaption {
+                    position: absolute;
+                    top: 10%;
+                    left: 10%;
+                    color: white;
+                    font-size: 3.5rem;
+                    width: 30%;
+                    line-height: 150%;
+                    span {
+                        color: black;
+                        background-color: white;
+                        padding: 1rem;
+                        border-radius: 5rem;
+                    }
+                }
+            }
         }
     }
 
-    .try-live {
-        padding: 6rem;
-        background-color: $yellow;
-        .try-live-header {
+    .find-live {
+        div {
             display: flex;
-            gap: 1rem;
             flex-direction: column;
-            padding-bottom: 7rem;
-            a {
+            .find-live-heading {
                 display: flex;
+                justify-content: center;
                 align-items: center;
-                font-size: 2rem;
-                text-decoration: none;
-                color: $deepblue;
+                h2 {
+                    padding: 6rem;
+                    font-size: 2.5rem;
+                    font-weight: lighter;
+                }
             }
-            span {
-                font-size: 0.9rem;
+            .find-live-video {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: inherit;
+                    figure {
+                        width: 85%;
+                        div {
+                            position: relative;
+                            img {
+                                width: 100%;
+                            }
+                            span {
+                                color: $deepblue;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translateY(-50%) translateX(-50%);
+                            }
+                        }
+                        figcaption {
+                            font-size: small;
+                            padding: 0.5rem;
+                        }
+                    }
+                    
+                }
+            }
+            .find-live-link {
+                padding: 6rem;
+                .find-live-text {
+                    h2 {
+                        padding-bottom: 3rem;
+                        font-size: 2.5rem;
+                        font-weight: lighter;
+                    }
+                }
+                .find-live-nav {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1rem;
+                    //font-size: 1.5rem;
+                    nav {
+                        display: flex;
+                        gap: 1rem;
+                        a {
+                            text-decoration: none;
+                            color: $deepblue;
+                        }
+                    }
+                }
             }
         }
-        .try-live-features {
-            h2 {
-                padding-bottom: 2rem;
-                font-weight: lighter;
-                font-size: 2.5rem;
+    }
+
+    .ideas {
+        background-color: $paleyellow;
+        div {
+            //display: flex;
+            //flex-direction: column;
+            .ideas-heading {
+                h2 {
+                    padding: 6rem;
+                    font-size: 5rem;
+                    font-weight: lighter;
+                }
             }
-            div {
-                display: grid;
-                grid-template-columns: auto auto auto;
-                gap:  1px;
-                div {
-                    .features-container {
-                        position: relative;
-                        &::before {
-                            content: "";
-                            position: absolute;
-                            top: 0;
-                            right: 0;
-                            left: 0;
-                            bottom: 0;
-                            background-color: rgba(0, 0, 0, 0.5);
-                            z-index: 1;
+            .ideas-video {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: inherit;
+                    figure {
+                        width: 85%;
+                        div {
+                            position: relative;
+                            img {
+                                width: 100%;
+                            }
+                            span {
+                                color: $deepblue;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translateY(-50%) translateX(-50%);
+                            }
                         }
-                        img {
-                            width: 100%;
+                        figcaption {
+                            font-size: small;
+                            padding: 0.5rem;
                         }
-                        span {
-                            width: 60%;
-                            z-index: 99;
-                            color: white;
-                            position: absolute;
-                            top: 50%;
-                            left: 50%;
-                            transform: translateY(-50%) translateX(-50%);
-                            text-align: center;
-                            font-size: 1.6rem;
+                    }
+                    
+                }
+            }
+            .ideas-text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 6rem;
+                .live-options-features {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    div {
+                        width: 45%;
+                        h2 {
+                            font-weight: lighter;
+                            font-size: 2rem;
+                        }
+                        p {
+                            padding-block: 1rem;
+                            font-size: 1.1rem;
                         }
                     }
                 }
@@ -111,8 +213,8 @@
                 justify-content: center;
                 align-items: center;
                 h2 {
-                    padding: 3rem 6rem;
-                    font-size: 7rem;
+                    padding: 6rem;
+                    font-size: 2.5rem;
                     font-weight: lighter;
                 }
             }
@@ -143,6 +245,7 @@
                         }
                         figcaption {
                             font-size: small;
+                            padding: 0.5rem;
                         }
                     }
                     

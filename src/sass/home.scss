@@ -2,85 +2,24 @@
 
 .home {
     .first {
-        display: flex;
-        justify-content: space-between;
         position: relative;
-        //height: 100vh;
-        .first-image1 {
-            width: 58%;
-            //height: fit-content;
-            div {
-                position: relative;
-                img {
-                    width: 100%;
-                }
-                div {
-                    position: absolute;
-                    top: 15%;
-                    left: 10%;
-                    color: $magenta;
-                    h2 {
-                        font-size: 2rem;
-                        font-weight: lighter;
-                    }
-                    a {
-                        color: inherit;
-                        font-size: 1.5rem;
-                    }
-                }
+        a {
+            text-decoration: none;
+            color: white;
+            img {
+                width: 100%;
             }
-        }
-        .first-image2 {
-            width: 34%;
-            display: flex;
-            align-items: end;
-            //height: fit-content;
-            div {
-                position: relative;
-                img {
-                    width: 100%;
+            .first-text {
+                position: absolute;
+                top: 15%;
+                left: 10%;
+                h2 {
+                    font-size: 5rem;
+                    font-weight: lighter;
                 }
-                div {
-                    position: absolute;
-                    top: 15%;
-                    left: 10%;
-                    color: $lightgreen;
-                    h2 {
-                        font-size: 2rem;
-                        font-weight: lighter;
-                    }
-                    a {
-                        color: inherit;
-                        font-size: 1.5rem;
-                    }
-                }
-            }
-        }
-        .first-image3 {
-            width: 35%;
-            display: flex;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translateY(-50%) translateX(-50%);
-            div {
-                position: relative;
-                img {
-                    width: 100%;
-                }
-                div {
-                    position: absolute;
-                    top: 15%;
-                    left: 10%;
-                    color: $paleyellow;
-                    h2 {
-                        font-size: 2rem;
-                        font-weight: lighter;
-                    }
-                    a {
-                        color: inherit;
-                        font-size: 1.5rem;
-                    }
+                a {
+                    text-decoration: underline;
+                    font-size: 2rem;
                 }
             }
         }
@@ -92,7 +31,6 @@
             padding-bottom: 5rem;
             nav {
                 display: flex;
-                //justify-content: space-between;
                 align-items: center;
                 padding-bottom: 3rem;
                 h2 {
@@ -114,19 +52,27 @@
             div {
                 display: flex;
                 justify-content: space-between;
-                //gap: 4rem;
                 div {
                     width: (100% /3.3);
                     display: flex;
                     gap: 1rem;
                     flex-direction: column;
-                    img {
-                        width: 100%;
-                    }
-                    span {
-                        background-color: red;
-                        width: fit-content;
-                        padding: 0.3rem;
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                        img {
+                            width: 100%;
+                            aspect-ratio: 1.8/1;
+                            //padding-bottom: 1rem;
+                        }
+                        span {
+                            background-color: red;
+                            width: fit-content;
+                            padding: 0.3rem;
+                        }
+                        p {
+                            padding: 1rem 0;
+                        }
                     }
                 }
             }

@@ -1,83 +1,25 @@
 .home .first {
-  display: flex;
-  justify-content: space-between;
   position: relative;
 }
-.home .first .first-image1 {
-  width: 58%;
+.home .first a {
+  text-decoration: none;
+  color: white;
 }
-.home .first .first-image1 div {
-  position: relative;
-}
-.home .first .first-image1 div img {
+.home .first a img {
   width: 100%;
 }
-.home .first .first-image1 div div {
+.home .first a .first-text {
   position: absolute;
   top: 15%;
   left: 10%;
-  color: #D5D3FF;
 }
-.home .first .first-image1 div div h2 {
-  font-size: 2rem;
+.home .first a .first-text h2 {
+  font-size: 5rem;
   font-weight: lighter;
 }
-.home .first .first-image1 div div a {
-  color: inherit;
-  font-size: 1.5rem;
-}
-.home .first .first-image2 {
-  width: 34%;
-  display: flex;
-  align-items: end;
-}
-.home .first .first-image2 div {
-  position: relative;
-}
-.home .first .first-image2 div img {
-  width: 100%;
-}
-.home .first .first-image2 div div {
-  position: absolute;
-  top: 15%;
-  left: 10%;
-  color: #B6FFC0;
-}
-.home .first .first-image2 div div h2 {
+.home .first a .first-text a {
+  text-decoration: underline;
   font-size: 2rem;
-  font-weight: lighter;
-}
-.home .first .first-image2 div div a {
-  color: inherit;
-  font-size: 1.5rem;
-}
-.home .first .first-image3 {
-  width: 35%;
-  display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-}
-.home .first .first-image3 div {
-  position: relative;
-}
-.home .first .first-image3 div img {
-  width: 100%;
-}
-.home .first .first-image3 div div {
-  position: absolute;
-  top: 15%;
-  left: 10%;
-  color: #FBFFA7;
-}
-.home .first .first-image3 div div h2 {
-  font-size: 2rem;
-  font-weight: lighter;
-}
-.home .first .first-image3 div div a {
-  color: inherit;
-  font-size: 1.5rem;
 }
 .home .second {
   padding: 7rem 7rem 0;
@@ -115,14 +57,22 @@
   gap: 1rem;
   flex-direction: column;
 }
-.home .second .latest div div img {
-  width: 100%;
+.home .second .latest div div a {
+  text-decoration: none;
+  color: inherit;
 }
-.home .second .latest div div span {
+.home .second .latest div div a img {
+  width: 100%;
+  aspect-ratio: 1.8/1;
+}
+.home .second .latest div div a span {
   background-color: red;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.3rem;
+}
+.home .second .latest div div a p {
+  padding: 1rem 0;
 }
 .home .third {
   display: flex;

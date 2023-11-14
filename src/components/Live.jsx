@@ -11,7 +11,7 @@ const Live = () => {
 
     return (
         <div className="live">
-            <nav>
+            <nav className="live-nav">
                 <Link>Live 11</Link>
                 <Link>Add new features</Link>
                 <Link>What is Live?</Link>
@@ -23,172 +23,92 @@ const Live = () => {
             </nav>
 
             <div>
-                <div className="header">
-                    <h1>What's new in Live 11</h1>
-                    <Link>
-                        <PlayCircle size={70} weight="fill" />
-                        See what's new
-                    </Link>
-                </div>
-                <div className="header-image">
-                    <img src="https://ableton-production.imgix.net/live/creation-space-front-10.jpg?auto=compress%2Cformat&w=3000" alt="" />
-                </div>
-            </div>
-
-            <div className="try-live">
-                <div className="try-live-header">
-                    <Link>
-                        Try Live 11 free for 30 days
-                        <CaretRight size={20} />
-                    </Link>
-                    <span>The Live 11 Suite trial includes all the features of the full version, including saving and exporting. You can use it alongside your current version of Live.</span>
-                </div>
-
-                <div className="try-live-features">
-                    <h2>Explore the features in Live 11:</h2>
-                    <div>
+                <div className="header-video">
+                    <figure>
                         <div>
-                            <div className="features-container">
-                                <img src="https://ableton-production.imgix.net/live/jump-nav-comping.jpg" alt="" />
-                                <span>Create your perfect take with comping</span>
-                            </div>
+                            <video autoPlay controls loop>
+                                <source src="https://cdn-resources.ableton.com/resources/videos/live/l12_tour_header_desktop.mp4" type="video/mp4" />
+                            </video>
                         </div>
-                        <div>
-                            <div className="features-container">
-                                <img src="https://ableton-production.imgix.net/live/jump-nav-mpe.jpg" alt="" />
-                                <span>Add more feeling to your music</span>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="features-container">
-                                <img src="https://ableton-production.imgix.net/live/jump-nav-new-devices.jpg" alt="" />
-                                <span>Experiment with new devices</span>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="features-container">
-                                <img src="https://ableton-production.imgix.net/live/jump-nav-performance-improvements.jpg" alt="" />
-                                <span>Do more on stage</span>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="features-container">
-                                <img src="https://ableton-production.imgix.net/live/jump-nav-chance-tools.jpg" alt="" />
-                                <span>Be unpredictable</span>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="features-container">
-                                <img src="https://ableton-production.imgix.net/live/jump-nav-new-sounds.jpg" alt="" />
-                                <span>Work with new and updated sounds</span>
-                            </div>
-                        </div>
-                    </div>
+                        <figcaption>
+                            Find <span>yourself</span> again and again in Ableton Live
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
 
-            <div className="live-options">
+            <div className="find-live">
                 <div>
-                    <div className="live-options-heading">
-                        <h2>Create your perfect take</h2>
+                    <div className="find-live-heading">
+                        <h2>Whatever music you make, and whoever you are as a music maker, there's always more to explore in Live. See how you can go further with Live 12.</h2>
                     </div>
 
-                    <div className="live-options-video">
-                        <a href="https://www.youtube.com/watch?v=StDHuDdDANc" target="_blank">
+                    <div className="find-live-video">
+                        <a href="https://www.youtube.com/watch?v=QFCV6EkqRQs" target="_blank">
                             <figure>
                                 <div>
-                                    <img src="https://ableton-production.imgix.net/live/poster-comping.jpg?auto=compress%2Cformat&w=1680" alt="" />
+                                    <img src="https://ableton-production.imgix.net/components/text-beside-media/001882750010-web-sRGB.jpg?auto=compress%2Cformat&w=1680" alt="" />
                                     <span><PlayCircle size={200} weight="fill" /></span>
                                 </div>
                                 <figcaption>
-                                    Artist records and edits multiple takes of her voice and a MIDI keyboard using comping
+                                    A look at some of the highlights of Live 12
                                 </figcaption>
                             </figure>
                         </a>
                     </div>
 
-                    <div className="live-options-text">
-                        <div className="live-options-features">
-                            <div >
-                                <h2>Take recording and comping</h2>
-                                <p>
-                                    Live organizes multiple passes of an audio or MIDI performance into individual takes. Pick the best moments of each performance and combine them to create your perfect take. Or approach sound design in a new way by splicing together random samples from your library.
-                                </p>
-                            </div>
-                            <div>
-                                <h2>Linked-Track Editing</h2>
-                                <p>
-                                    Link two or more tracks to edit their content simultaneously. This makes editing multi-tracked instruments or performances with multiple musicians easy and fast whilst keeping everything in time across tracks. This feature also works for MIDI tracks.
-                                </p>
-                            </div>
+                    <div className="find-live-link">
+                        <div className="find-live-text">
+                            <h2>Find out what's possible in Live 12</h2>
+                        </div>
+                        <div className="find-live-nav">
+                            <span>Jump to:</span>
+                            <nav>
+                                <Link>Play freely with ideas</Link>
+                                <Link>Surprise yourself with sounds</Link>
+                                <Link>Work more intuitively</Link>
+                                <Link>See all new features</Link>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="live-options">
+            <div className="ideas">
                 <div>
-                    <div className="live-options-heading">
-                        <h2>Add more feeling to your music</h2>
+                    <div className="ideas-heading">
+                        <h2>Pray freely with ideas</h2>
                     </div>
 
-                    <div className="live-options-video">
-                        <a href="https://www.youtube.com/watch?v=OP6EKAggYyE" target="_blank">
+                    <div className="ideas-video">
+                        <a href="https://www.youtube.com/watch?v=z7kjcMvMr3M" target="_blank">
                             <figure>
                                 <div>
-                                    <img src="https://ableton-production.imgix.net/live/poster-mpe.jpg?auto=compress%2Cformat&w=1680" alt="" />
+                                    <img src="https://ableton-production.imgix.net/components/text-beside-media/web-play-freely-header-sRGB.jpg?auto=compress%2Cformat&w=1680" alt="" />
                                     <span><PlayCircle size={200} weight="fill" /></span>
                                 </div>
                                 <figcaption>
-                                Artist demonstrates MPE using a Roli Seaboard, Push and Live 11's new Note Expression View
+                                    A demonstration of the new MIDI Tools
                                 </figcaption>
                             </figure>
                         </a>
                     </div>
 
-                    <div className="live-options-text">
+                    <div className="ideas-text">
                         <div className="live-options-features">
                             <div >
-                                <h2>Use your MPE-capable controller</h2>
+                                <h2>Reshape MIDI patterns</h2>
                                 <p>
-                                    Plug in your MPE-capable controller and immediately add bends, slides and pressure for each individual note in a chord. Add subtle expression variations, morph between chords and create evolving sonic textures.
+                                    Apply a variety of simple or complex variations to your MIDI clips with new MIDI Transformations. Add ornaments and articulations, draw acceleration and deceleration curves, connect successive notes and chords, simulate the strum of a guitar, and more.
                                 </p>
                             </div>
                             <div>
-                                <h2>What is MPE?</h2>
+                                <h2>Generate inspiration</h2>
                                 <p>
-                                    MPE stands for MIDI Polyphonic Expression. This way of using MIDI allows MPE-capable devices to control multiple parameters of every note in real time for more expressive instrumental performances.
+                                    Conjure up melodies, chords and rhythms with the help of new MIDI Generators. Set constraints and let your chosen Generator create playful and original ideas for you to develop and turn into your own.
                                 </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="learn-more">
-                <button>
-                    <Plus size={25} weight="bold" />
-                    Learn more
-                </button>
-            </div>
-
-            <div className="learn-more-text">
-                <div>
-                    <img src="https://ableton-production.imgix.net/live/screenshot-note-expression-view.jpg?auto=compress%2Cformat&w=1024" alt="" />
-                    <div>
-                        <h2>Note Expression View</h2>
-                        <p>
-                            Edit the pitch, slide and pressure envelopes of each note to refine the expression of your takes. Or take your sound design further by sequencing polyphonic sound variations.
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <img src="https://ableton-production.imgix.net/live/screenshot-expressive-sounds.jpg?auto=compress%2Cformat&w=1024" alt="" />
-                    <div>
-                        <h2>More expressive sounds included</h2>
-                        <p>
-                            Wavetable, Sampler and Arpeggiator are all updated to support MPE. And Live comes with MPE presets for each device that bring new dimensions of interaction and playability to your sound. The new expressive possibilities also enable polyphonic aftertouch on Push.
-                        </p>
                     </div>
                 </div>
             </div>

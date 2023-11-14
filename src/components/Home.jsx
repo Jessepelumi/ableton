@@ -7,44 +7,16 @@ const Home = () => {
         <div className="home">
             
             <div className="first">
-                <div className="first-image1">
-                    <div>
-                        <img src="https://ableton-production.imgix.net/uploads/homepage-teasers/Homepage_Tile_1000x680_Mxr9Rpo.jpg" alt="" />
-                        <div>
-                            <h2>Update Live and Push for free</h2>
-                            <Link>
-                                Download Live 11.3.10
-                                <CaretRight size={12} />
-                            </Link>
-                        </div>
+                <Link to="/live">
+                    <img src="https://ableton-production.imgix.net/tours/live/live-12/homepage-takeover-background.jpg" alt="" />
+                    <div className="first-text">
+                        <h2>Always more to explore</h2>
+                        <Link to="/live">
+                            See what's coming in Live 12
+                            <CaretRight size={20} />
+                        </Link>
                     </div>
-                </div>
-
-                <div className="first-image2">
-                    <div>
-                        <img src="https://ableton-production.imgix.net/uploads/homepage-teasers/Push-opt2_0CUDOtu.jpg?fit=crop&amp;auto=format&amp;fm=jpg" alt="" />
-                        <div>
-                            <h2>Focus and feel</h2>
-                            <Link>
-                                Meet the new Push
-                                <CaretRight size={12} />
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="first-image3">
-                    <div>
-                        <img src="https://ableton-production.imgix.net/uploads/homepage-teasers/428_Note_Homepage_Tile_black_shadow.jpg" alt="" />
-                        <div>
-                            <h2>See what's new in Note</h2>
-                            <Link>
-                                Check out the latest features
-                                <CaretRight size={12} />
-                            </Link>
-                        </div>
-                    </div>
-                </div>
+                </Link>
             </div>
 
             <div className="second">
@@ -66,6 +38,13 @@ const Home = () => {
                     <div>
                         <div>
                             <Link>
+                                <img src="https://ableton-production.imgix.net/tours/live/live-12/homepage-takeover-background.jpg" alt="" />
+                                <span>News</span>
+                                <p>What's coming in Live 12</p>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link>
                                 <img src="https://cdn-resources.ableton.com/resources/uploads/zinnia/thumb_SHS_20_Closing_Marathon_Season_1_RESIZE.jpg.600x340_q85_crop_upscale.jpg" alt="" />
                                 <span>Artist</span>
                                 <p>Together, Apart: Remote Jamming with Speedy J</p>
@@ -78,13 +57,7 @@ const Home = () => {
                                 <p>Get Hands-on with Push 3 at an Event Near You</p>
                             </Link>
                         </div>
-                        <div>
-                            <Link>
-                                <img src="https://cdn-resources.ableton.com/resources/uploads/zinnia/thumb_432_Loop_Session_Machina.jpg.600x340_q85_crop_upscale.jpg" alt="" />
-                                <span>Loop</span>
-                                <p>Loop Session: Discover machìna's Approach to Performing</p>
-                            </Link>
-                        </div>
+                        
                     </div>
                 </div>
 
@@ -104,19 +77,28 @@ const Home = () => {
                         <div>
                             <Link>
                                 <img src="https://ableton-production.imgix.net/uploads/content-clusters/NL_Spitfire_Choir.jpg?fit=crop&amp;auto=format&amp;fm=jpg" alt="" />
-                                <p>Together, Apart: Remote Jamming with Speedy J</p>
+                                <p>
+                                    Expressive Choir for Spitfire Audio
+                                    <CaretRight size={12} />
+                                </p>
                             </Link>
                         </div>
                         <div>
                             <Link>
                                 <img src="https://ableton-production.imgix.net/uploads/content-clusters/TN_Building_Max_Devices.jpg" alt="" />
-                                <p>Get Hands-on with Push 3 at an Event Near You</p>
+                                <p>
+                                    Building Max Devices by Ableton
+                                    <CaretRight size={12} />
+                                </p>
                             </Link>
                         </div>
                         <div>
                             <Link>
                                 <img src="https://ableton-production.imgix.net/uploads/content-clusters/BL_SPAT_Devices.jpg" alt="" />
-                                <p>Loop Session: Discover machìna's Approach to Performing</p>
+                                <p>
+                                    SPAT Bundle by Music Unit
+                                    <CaretRight size={12} />
+                                </p>
                             </Link>
                         </div>
                     </div>
@@ -131,19 +113,28 @@ const Home = () => {
                         <div>
                             <Link>
                                 <img src="https://ableton-production.imgix.net/uploads/content-clusters/Screenshot_2023-04-11_at_12.20.55.png" alt="" />
-                                <p>Together, Apart: Remote Jamming with Speedy J</p>
+                                <p>
+                                    Learn the foundations of music
+                                    <CaretRight size={12} />
+                                </p>
                             </Link>
                         </div>
                         <div>
                             <Link>
                                 <img src="https://ableton-production.imgix.net/uploads/content-clusters/403_Product_Takeover5.jpg" alt="" />
-                                <p>Get Hands-on with Push 3 at an Event Near You</p>
+                                <p>
+                                    Get started with Live
+                                    <CaretRight size={12} />
+                                </p>
                             </Link>
                         </div>
                         <div>
                             <Link>
                                 <img src="https://ableton-production.imgix.net/uploads/content-clusters/Screenshot_2023-04-11_at_12.22.04.png" alt="" />
-                                <p>Loop Session: Discover machìna's Approach to Performing</p>
+                                <p>
+                                    Go further with Live and Push tutorials
+                                    <CaretRight size={12} />
+                                </p>
                             </Link>
                         </div>
                     </div>
@@ -165,19 +156,28 @@ const Home = () => {
                         <div>
                             <Link>
                                 <img src="https://ableton-production.imgix.net/uploads/content-clusters/One_Thing_JWords_Title.jpg" alt="" />
-                                <p>Together, Apart: Remote Jamming with Speedy J</p>
+                                <p>
+                                    Alternating Rhythms
+                                    <CaretRight size={12} />
+                                </p>
                             </Link>
                         </div>
                         <div>
                             <Link>
                                 <img src="https://ableton-production.imgix.net/uploads/content-clusters/One_Thing_Rokeya_Title_FINAL_2.jpg" alt="" />
-                                <p>Get Hands-on with Push 3 at an Event Near You</p>
+                                <p>
+                                    Searhing for rhythmic sounds
+                                    <CaretRight size={12} />
+                                </p>
                             </Link>
                         </div>
                         <div>
                             <Link>
                                 <img src="https://ableton-production.imgix.net/uploads/content-clusters/One_Thing_Chuck_Sutton_Title.jpg" alt="" />
-                                <p>Loop Session: Discover machìna's Approach to Performing</p>
+                                <p>
+                                    Expressions with foley
+                                    <CaretRight size={12} />
+                                </p>
                             </Link>
                         </div>
                     </div>
