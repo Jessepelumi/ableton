@@ -180,6 +180,70 @@
   padding-block: 1rem;
   font-size: 1.1rem;
 }
+.live .ideas div .ideas2 {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.live .ideas div .ideas2 div {
+  width: 60%;
+  display: flex;
+  gap: 10%;
+}
+.live .ideas div .ideas2 div .ideas2-image {
+  width: 50%;
+}
+.live .ideas div .ideas2 div .ideas2-image img {
+  width: 100%;
+}
+.live .ideas div .ideas2 div .ideas2-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.live .ideas div .ideas2 div .ideas2-text h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.live .ideas div .ideas3 {
+  display: flex;
+  padding-block: 6rem;
+}
+.live .ideas div .ideas3 .ideas3-text {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.live .ideas div .ideas3 .ideas3-text div {
+  width: 60%;
+}
+.live .ideas div .ideas3 .ideas3-text div h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.live .ideas div .ideas3 .ideas3-video {
+  width: 60%;
+}
+.live .ideas div .ideas3 .ideas3-video a {
+  text-decoration: none;
+  color: inherit;
+}
+.live .ideas div .ideas3 .ideas3-video a figure div {
+  position: relative;
+}
+.live .ideas div .ideas3 .ideas3-video a figure div img {
+  width: 100%;
+}
+.live .ideas div .ideas3 .ideas3-video a figure div span {
+  color: #0000FF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
 .live .live-options div {
   display: flex;
   flex-direction: column;
@@ -286,14 +350,15 @@
   font-weight: lighter;
   font-size: 1.5rem;
 }
-.live .experiment {
+.live .surprise {
   padding: 6rem;
-  background-color: #B6FFC0;
 }
-.live .experiment .experiment-heading h2 {
-  font-size: 6.5rem;
+.live .surprise .surprise-heading h2 {
+  font-size: 5rem;
   font-weight: lighter;
-  width: 70%;
+}
+.live .surprise img {
+  width: 100%;
 }
 .live .stage {
   padding-block: 6rem;

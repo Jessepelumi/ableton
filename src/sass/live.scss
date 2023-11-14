@@ -201,6 +201,73 @@
                     }
                 }
             }
+            .ideas2 {
+                padding: 3rem 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                div {
+                    width: 60%;
+                    display: flex;
+                    //justify-content: space-between;
+                    gap: 10%;
+                    .ideas2-image {
+                        width: 50%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .ideas2-text {
+                        width: 40%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        h2 {
+                            font-size: 1.5rem;
+                            font-weight: lighter;
+                        }
+                    }
+                }
+            }
+            .ideas3 {
+                display: flex;
+                padding-block: 6rem;
+                .ideas3-text {
+                    width: 40%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    div {
+                        width: 60%;
+                        h2 {
+                            font-size: 1.5rem;
+                            font-weight: lighter;
+                        }
+                    }
+                }
+                .ideas3-video {
+                    width: 60%;
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                        figure {
+                            div {
+                                position: relative;
+                                img {
+                                    width: 100%;
+                                }
+                                span {
+                                    color: $deepblue;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translateY(-50%) translateX(-50%);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -316,13 +383,16 @@
         }
     }
 
-    .experiment {
+    .surprise {
         padding: 6rem;
-        background-color: $lightgreen;
-        .experiment-heading h2 {
-            font-size: 6.5rem;
+        .surprise-heading h2 {
+            font-size: 5rem;
             font-weight: lighter;
-            width: 70%;
+        }
+        img {
+            width: 100%;
+            //aspect-ratio: 1.5/1;
+            //padding-block: 2rem;
         }
     }
 

@@ -110,13 +110,106 @@ const Live = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className="ideas2">
+                        <div>
+                            <div className="ideas2-image">
+                                <img src="https://ableton-production.imgix.net/components/text-beside-media/web-mfl-midi-tools.png?auto=compress%2Cformat&w=1600" alt="" />
+                            </div>
+                            <div className="ideas2-text">
+                                <h2>Do more with Max for Live</h2>
+                                <p>
+                                    Try out additional Max for Live Transformations and Generators that give you deeper ways of working with MIDI, or go even further by building new ones.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="ideas3">
+                        <div className="ideas3-text">
+                            <div>
+                                <h2>Embrace and explore tunings</h2>
+                                <p>
+                                    Follow your preferred tuning systems or try different ones more easily. Work outside the 12-tone equal temperament system, and access tunings with Live's devices as well as any MPE-capable plugin.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="ideas3-video">
+                            <a href="https://www.youtube.com/watch?v=5AcHM_FtkiM" target="_blank">
+                                <figure>
+                                    <div>
+                                        <img src="https://ableton-production.imgix.net/components/text-beside-media/web-tunings-img-sRGB.jpg?auto=compress%2Cformat&w=1680" alt="" />
+                                        <span><PlayCircle size={200} weight="fill" /></span>
+                                    </div>
+                                    <figcaption>
+                                        A demonstration of the new MIDI Tools
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="ideas3">
+                        <div className="ideas3-video">
+                            <a href="https://www.youtube.com/watch?v=u6IpJYpN48A" target="_blank">
+                                <figure>
+                                    <div>
+                                        <img src="https://ableton-production.imgix.net/components/text-beside-media/web-midi-tools-img-sRGB-2.jpg?auto=compress%2Cformat&w=1680" alt="" />
+                                        <span><PlayCircle size={200} weight="fill" /></span>
+                                    </div>
+                                    <figcaption>
+                                        A demonstration of the new MIDI Tools
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <div className="ideas3-text">
+                            <div>
+                                <h2>Stay in key</h2>
+                                <p>
+                                    Choose a scale in Live's Control Bar to see its notes in any MIDI clip you create. Then transform or generate ideas within the confines of the selected scale, or sync the scale of MIDI devices and instruments to the clip being played.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="ideas2">
+                        <div>
+                            <div className="ideas2-image">
+                                <img src="https://ableton-production.imgix.net/components/text-beside-media/web-midi-editing.png?auto=compress%2Cformat&w=1600" alt="" />
+                            </div>
+                            <div className="ideas2-text">
+                                <h2>Edit MIDI more easily</h2>
+                                <p>
+                                    Use keyboard and mouse operations to edit MIDI in new ways. Split a note in two, or chop it into several parts. Select a set of notes and join them together, or make them fill a selected time range. And access more tools from the Note Utilities panel on the left.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="ideas2">
+                        <div>
+                            <div className="ideas2-image">
+                                <img src="https://ableton-production.imgix.net/components/text-beside-media/web-mfl-modulation.png?auto=compress%2Cformat&w=1600" alt="" />
+                            </div>
+                            <div className="ideas2-text">
+                                <h2>Modulate more flexibly</h2>
+                                <p>
+                                    Stay in control of a parameter, even after it's been mapped to a modulation source; Max for Live devices like LFO, Shaper and Envelope Follower now let you freely adjust a destination that's being modulated.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div className="experiment">
+            <div className="surprise">
 
-                <div className="experiment-heading">
-                    <h2>Experiment with new devices</h2>
+                <div className="surprise-heading">
+                    <h2>Surprise yourself with the sounds you create</h2>
+                    <img src="https://ableton-production.imgix.net/components/text-beside-media/001882720001-web-1610.jpg?auto=compress%2Cformat&w=1920" alt="" />
+                    <div className="surprise-heading-image">
+                        
+                    </div>
                 </div>
 
             </div>
