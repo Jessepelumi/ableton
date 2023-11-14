@@ -124,11 +124,13 @@ const About = () => {
                             <img src="https://ableton-production.imgix.net/about/photo-8.jpg" alt="" />
                         </div>
                         <div className="image6-text">
-                            <h2>We're really proud of the work we've done so far. But there's so much more to come. If you'd like to be a part of it, please join us.</h2>
-                            <Link>
-                                See latest jobs
-                                <CaretRight size={20} />
-                            </Link>
+                            <div>
+                                <h2>We're really proud of the work we've done so far. But there's so much more to come. If you'd like to be a part of it, please join us.</h2>
+                                <Link>
+                                    See latest jobs
+                                    <CaretRight size={20} />
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>

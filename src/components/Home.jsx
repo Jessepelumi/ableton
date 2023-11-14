@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                {/* <div className="first-image3">
+                <div className="first-image3">
                     <div>
                         <img src="https://ableton-production.imgix.net/uploads/homepage-teasers/428_Note_Homepage_Tile_black_shadow.jpg" alt="" />
                         <div>
@@ -44,7 +44,7 @@ const Home = () => {
                             </Link>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
 
             <div className="second">

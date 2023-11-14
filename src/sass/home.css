@@ -1,6 +1,7 @@
 .home .first {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .home .first .first-image1 {
   width: 58%;
@@ -17,8 +18,13 @@
   left: 10%;
   color: #D5D3FF;
 }
+.home .first .first-image1 div div h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
 .home .first .first-image1 div div a {
   color: inherit;
+  font-size: 1.5rem;
 }
 .home .first .first-image2 {
   width: 34%;
@@ -37,15 +43,21 @@
   left: 10%;
   color: #B6FFC0;
 }
+.home .first .first-image2 div div h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
 .home .first .first-image2 div div a {
   color: inherit;
+  font-size: 1.5rem;
 }
 .home .first .first-image3 {
   width: 35%;
   display: flex;
   position: absolute;
-  top: 70%;
-  left: 41%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
 }
 .home .first .first-image3 div {
   position: relative;
@@ -59,8 +71,13 @@
   left: 10%;
   color: #FBFFA7;
 }
+.home .first .first-image3 div div h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
 .home .first .first-image3 div div a {
   color: inherit;
+  font-size: 1.5rem;
 }
 .home .second {
   padding: 7rem 7rem 0;

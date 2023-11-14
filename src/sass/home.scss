@@ -4,7 +4,7 @@
     .first {
         display: flex;
         justify-content: space-between;
-        //position: relative;
+        position: relative;
         //height: 100vh;
         .first-image1 {
             width: 58%;
@@ -19,8 +19,13 @@
                     top: 15%;
                     left: 10%;
                     color: $magenta;
+                    h2 {
+                        font-size: 2rem;
+                        font-weight: lighter;
+                    }
                     a {
                         color: inherit;
+                        font-size: 1.5rem;
                     }
                 }
             }
@@ -40,8 +45,13 @@
                     top: 15%;
                     left: 10%;
                     color: $lightgreen;
+                    h2 {
+                        font-size: 2rem;
+                        font-weight: lighter;
+                    }
                     a {
                         color: inherit;
+                        font-size: 1.5rem;
                     }
                 }
             }
@@ -50,8 +60,9 @@
             width: 35%;
             display: flex;
             position: absolute;
-            top: 70%;
-            left: 41%;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
             div {
                 position: relative;
                 img {
@@ -62,8 +73,13 @@
                     top: 15%;
                     left: 10%;
                     color: $paleyellow;
+                    h2 {
+                        font-size: 2rem;
+                        font-weight: lighter;
+                    }
                     a {
                         color: inherit;
+                        font-size: 1.5rem;
                     }
                 }
             }
