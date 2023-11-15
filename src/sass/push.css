@@ -1,0 +1,106 @@
+.push .push-nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 3rem;
+  border-top: 2px solid #D3D3D3;
+}
+.push .push-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+.push .push-nav a:last-child {
+  color: #0000FF;
+}
+.push div .header-video {
+  position: relative;
+}
+.push div .header-video figure div video {
+  width: 100%;
+}
+.push div .header-video figure figcaption {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+}
+.push div .header-video figure figcaption h2 {
+  color: #B6FFC0;
+  font-size: 7rem;
+  font-weight: lighter;
+}
+.push div .header-video figure figcaption p {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.push div .header-video figure figcaption button {
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #0000FF;
+}
+.push .focus {
+  background-color: black;
+  color: white;
+  padding: 6rem;
+}
+.push .focus .focus-header {
+  width: 50%;
+  padding-bottom: 2rem;
+}
+.push .focus .focus-header h2 {
+  font-size: 5rem;
+  font-weight: lighter;
+}
+.push .focus .focus-header p {
+  font-size: 1.2rem;
+}
+.push .focus .focus2 {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.push .focus .focus2 div {
+  width: 70%;
+  display: flex;
+  gap: 10%;
+}
+.push .focus .focus2 div .focus2-image {
+  width: 60%;
+}
+.push .focus .focus2 div .focus2-image video {
+  width: 100%;
+}
+.push .focus .focus2 div .focus2-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.push .focus .focus2 div .focus2-text h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.push .focus .focus3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.push .focus .focus3 div {
+  position: relative;
+  width: 90%;
+}
+.push .focus .focus3 div a {
+  text-decoration: none;
+  color: #0000FF;
+}
+.push .focus .focus3 div a img {
+  width: 100%;
+}
+.push .focus .focus3 div a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}/*# sourceMappingURL=push.css.map */

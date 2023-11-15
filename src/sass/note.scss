@@ -1,0 +1,30 @@
+@import "variables";
+
+.note {
+    .note-header {
+        .header-video {
+            position: relative;
+            figure {
+                div video {
+                    width: 100%;
+                }
+                figcaption {
+                    position: absolute;
+                    top: 10%;
+                    left: 10%;
+                    color: white;
+                    width: 30%;
+                    h2 {
+                        color: $yellow;
+                        font-size: 7rem;
+                        font-weight: lighter;
+                    }
+                    p {
+                        font-size: 1.5rem;
+                        padding-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

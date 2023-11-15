@@ -1,0 +1,22 @@
+.note .note-header .header-video {
+  position: relative;
+}
+.note .note-header .header-video figure div video {
+  width: 100%;
+}
+.note .note-header .header-video figure figcaption {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  width: 30%;
+}
+.note .note-header .header-video figure figcaption h2 {
+  color: rgba(255, 255, 0, 0.8039215686);
+  font-size: 7rem;
+  font-weight: lighter;
+}
+.note .note-header .header-video figure figcaption p {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}/*# sourceMappingURL=note.css.map */

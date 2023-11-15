@@ -6,7 +6,7 @@ import { useEffect } from "react";
 const Live = () => {
 
     useEffect(() => {
-        document.title = "What's new in Live 11 | Ableton";
+        document.title = "What's new in Live 12 | Ableton";
     }, []);
 
     return (
