@@ -1,0 +1,140 @@
+@import "variables";
+
+.help {
+    border-bottom: 2px solid $lightgray;
+    padding-bottom: 3rem;
+    .help-nav {
+        display: flex;
+        gap: 1rem;
+        padding: 1rem 3rem;
+        border-top: 2px solid $lightgray;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+    header {
+        padding: 7rem;
+        .need-help-heading {
+            padding-bottom: 4rem;
+            font-size: 5rem;
+            font-weight: lighter;
+        }
+        .need-help-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 7rem;
+            div {
+                h2 {
+                    padding-bottom: 1rem;
+                    font-weight: lighter;
+                    font-size: 1.5rem;
+                }
+                p {
+                    padding-bottom: 1rem;
+                    font-size: 1.1rem;
+                }
+                a {
+                    text-decoration: none;
+                    color: $deepblue;
+                    font-size: 1.1rem;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+                form {
+                    label {
+                        display: block;
+                        font-size: 1.2rem;
+                        padding-bottom: 1rem;
+                    }
+                    input {
+                        width: 65%;
+                        outline: none;
+                        border: none;
+                        background-color: $lightgray;
+                        font-size: inherit;
+                        padding: 1rem 1rem;
+                    }
+                    button {
+                        width: 30%;
+                        padding: 1rem 1rem;
+                        border: none;
+                        font-size: inherit;
+                        background-color: $deepblue;
+                        color: $lightgray;
+                    }
+                }
+            }
+        }
+    }
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 7rem;
+        padding: 0 7rem;
+        .learn-container {
+            //width: 50%;
+            a {
+                img {
+                    width: 100%;
+                }
+            }
+            div {
+                h2 {
+                    font-size: 1.5rem;
+                    font-weight: lighter;
+                    padding-block: 1rem;
+                }
+                p {
+                    //width: 70%;
+                    font-size: 1.1rem;
+                    padding-block: 1rem;
+                }
+                a {
+                    text-decoration: none;
+                    color: $deepblue;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+    aside {
+        padding: 3rem 7rem;
+        .aside-heading {
+            font-size: 2rem;
+            font-weight: lighter;
+            padding-block: 1rem;
+        }
+        .aside-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 7rem;
+            h2, p {
+                font-weight: lighter;
+                padding-bottom: 1rem;
+                width: 100%;
+            }
+            a {
+                display: block;
+                text-decoration: none;
+                color: $deepblue;
+                font-size: 1.1rem;
+            }
+            .paragraph {
+                padding-top: 1rem;
+                a {
+                    display: inline;
+                    font-size: inherit;
+                }
+            }
+            .inner-aside {
+                background-color: $powderblue;
+                padding: 1.5rem;
+                margin-bottom: 1rem;
+                h2, a {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

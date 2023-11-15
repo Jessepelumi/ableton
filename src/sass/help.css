@@ -1,0 +1,126 @@
+.help {
+  border-bottom: 2px solid #D3D3D3;
+  padding-bottom: 3rem;
+}
+.help .help-nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 3rem;
+  border-top: 2px solid #D3D3D3;
+}
+.help .help-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+.help header {
+  padding: 7rem;
+}
+.help header .need-help-heading {
+  padding-bottom: 4rem;
+  font-size: 5rem;
+  font-weight: lighter;
+}
+.help header .need-help-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+}
+.help header .need-help-container div h2 {
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+.help header .need-help-container div p {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.help header .need-help-container div a {
+  text-decoration: none;
+  color: #0000FF;
+  font-size: 1.1rem;
+  display: block;
+  padding-bottom: 0.5rem;
+}
+.help header .need-help-container div form label {
+  display: block;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.help header .need-help-container div form input {
+  width: 65%;
+  outline: none;
+  border: none;
+  background-color: #D3D3D3;
+  font-size: inherit;
+  padding: 1rem 1rem;
+}
+.help header .need-help-container div form button {
+  width: 30%;
+  padding: 1rem 1rem;
+  border: none;
+  font-size: inherit;
+  background-color: #0000FF;
+  color: #D3D3D3;
+}
+.help section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+  padding: 0 7rem;
+}
+.help section .learn-container a img {
+  width: 100%;
+}
+.help section .learn-container div h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding-block: 1rem;
+}
+.help section .learn-container div p {
+  font-size: 1.1rem;
+  padding-block: 1rem;
+}
+.help section .learn-container div a {
+  text-decoration: none;
+  color: #0000FF;
+  font-size: 1.1rem;
+}
+.help aside {
+  padding: 3rem 7rem;
+}
+.help aside .aside-heading {
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-block: 1rem;
+}
+.help aside .aside-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+}
+.help aside .aside-container h2, .help aside .aside-container p {
+  font-weight: lighter;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+.help aside .aside-container a {
+  display: block;
+  text-decoration: none;
+  color: #0000FF;
+  font-size: 1.1rem;
+}
+.help aside .aside-container .paragraph {
+  padding-top: 1rem;
+}
+.help aside .aside-container .paragraph a {
+  display: inline;
+  font-size: inherit;
+}
+.help aside .aside-container .inner-aside {
+  background-color: #B1C5FF;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+.help aside .aside-container .inner-aside h2, .help aside .aside-container .inner-aside a {
+  font-size: 1rem;
+}/*# sourceMappingURL=help.css.map */
