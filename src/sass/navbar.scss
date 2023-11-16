@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 3rem;
+    user-select: none;
     .nav-first {
         display: flex;
         gap: 2rem;
@@ -16,15 +17,22 @@
         .navigation-links {
             display: flex;
             gap: 2rem;
-            a {
-                text-decoration: none;
-                color: inherit;
+            div {
                 display: flex;
-                gap: 0.5rem;
-                align-items: center;
-                &:active {
-                    color: $orange;
+                gap: 2rem;
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                    &:active {
+                        color: $orange;
+                    }
                 }
+            }
+            span {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                cursor: pointer;
             }
         }
     }
@@ -37,6 +45,44 @@
             color: inherit;
             &:first-child {
                 color: $deepblue;
+            }
+        }
+    }
+}
+
+.more {
+    padding: 3rem;
+    user-select: none;
+    h2 {
+        font-size: 1.8rem;
+        font-weight: lighter;
+        padding-bottom: 1rem;
+    }
+    .first {
+        padding-bottom: 2rem;
+        .first-links {
+            display: flex;
+            gap: 2rem;
+            a {
+                text-decoration: none;
+                color: inherit;
+                font-size: 1.1rem;
+            }
+        }
+    }
+    .second {
+        h3 {
+            font-weight: lighter;
+            font-size: 1.2rem;
+        }
+        .second-links {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 2rem;
+            font-size: 1.1rem;
+            a {
+                text-decoration: none;
+                color: inherit;
             }
         }
     }

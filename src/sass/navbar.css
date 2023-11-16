@@ -3,6 +3,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 3rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .navigation .nav-first {
   display: flex;
@@ -17,15 +20,22 @@
   display: flex;
   gap: 2rem;
 }
-.navigation .nav-first .navigation-links a {
+.navigation .nav-first .navigation-links div {
+  display: flex;
+  gap: 2rem;
+}
+.navigation .nav-first .navigation-links div a {
   text-decoration: none;
   color: inherit;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
 }
-.navigation .nav-first .navigation-links a:active {
+.navigation .nav-first .navigation-links div a:active {
   color: #FF764D;
+}
+.navigation .nav-first .navigation-links span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
 }
 .navigation .nav-second {
   display: flex;
@@ -37,4 +47,42 @@
 }
 .navigation .nav-second a:first-child {
   color: #0000FF;
+}
+
+.more {
+  padding: 3rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.more h2 {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+.more .first {
+  padding-bottom: 2rem;
+}
+.more .first .first-links {
+  display: flex;
+  gap: 2rem;
+}
+.more .first .first-links a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.1rem;
+}
+.more .second h3 {
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+.more .second .second-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  font-size: 1.1rem;
+}
+.more .second .second-links a {
+  text-decoration: none;
+  color: inherit;
 }/*# sourceMappingURL=navbar.css.map */

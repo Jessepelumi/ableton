@@ -8,7 +8,7 @@ import Link from "./components/Link";
 import Shop from "./components/Shop";
 import Packs from "./components/Packs";
 import Help from "./components/Help";
-import More from "./components/More";
+// import More from "./components/More";
 import Trial from "./components/Trial";
 import Login from "./components/Login";
 import About from "./components/About";
@@ -31,7 +31,7 @@ function App() {
             <Route path="/shop" element={<Shop/>}/>
             <Route path="/packs" element={<Packs/>}/>
             <Route path="/help" element={<Help/>}/>
-            <Route path="/more" element={<More/>}/>
+            {/* <Route path="/more" element={<More/>}/> */}
             <Route path="/trial" element={<Trial/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/about" element={<About/>}/>
