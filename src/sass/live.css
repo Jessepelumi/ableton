@@ -11,18 +11,18 @@
 .live .live-nav a:last-child {
   color: #0000FF;
 }
-.live div .header {
+.live header .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-block: 8rem;
 }
-.live div .header h1 {
+.live header .header h1 {
   font-size: 7rem;
   font-weight: lighter;
 }
-.live div .header a {
+.live header .header a {
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -30,13 +30,13 @@
   text-decoration: none;
   color: #0000FF;
 }
-.live div .header-video {
+.live header .header-video {
   position: relative;
 }
-.live div .header-video figure div video {
+.live header .header-video figure div video {
   width: 100%;
 }
-.live div .header-video figure figcaption {
+.live header .header-video figure figcaption {
   position: absolute;
   top: 10%;
   left: 10%;
@@ -45,7 +45,7 @@
   width: 30%;
   line-height: 150%;
 }
-.live div .header-video figure figcaption span {
+.live header .header-video figure figcaption span {
   color: black;
   background-color: white;
   padding: 1rem;
@@ -61,7 +61,7 @@
   align-items: center;
 }
 .live .find-live div .find-live-heading h2 {
-  padding: 6rem;
+  padding: 7rem;
   font-size: 2.5rem;
   font-weight: lighter;
 }
@@ -98,7 +98,7 @@
   padding: 0.5rem;
 }
 .live .find-live div .find-live-link {
-  padding: 6rem;
+  padding: 7rem;
 }
 .live .find-live div .find-live-link .find-live-text h2 {
   padding-bottom: 3rem;
@@ -122,7 +122,7 @@
   background-color: #FBFFA7;
 }
 .live .ideas div .ideas-heading h2 {
-  padding: 6rem;
+  padding: 7rem;
   font-size: 5rem;
   font-weight: lighter;
 }
@@ -254,7 +254,7 @@
   align-items: center;
 }
 .live .live-options div .live-options-heading h2 {
-  padding: 6rem;
+  padding: 7rem;
   font-size: 2.5rem;
   font-weight: lighter;
 }
@@ -317,7 +317,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 6rem;
+  padding: 0 7rem;
 }
 .live .learn-more button {
   width: 100%;
@@ -351,43 +351,81 @@
   font-size: 1.5rem;
 }
 .live .surprise {
-  padding: 6rem;
+  padding: 7rem;
 }
 .live .surprise .surprise-heading h2 {
   font-size: 5rem;
   font-weight: lighter;
+  padding-bottom: 5rem;
 }
-.live .surprise img {
+.live .surprise .surprise-heading img {
   width: 100%;
 }
-.live .stage {
-  padding-block: 6rem;
+.live .surprise .lose {
+  padding-top: 5rem;
 }
-.live .stage .stage-heading h2 {
-  padding: 6rem;
-  font-size: 6.5rem;
-  font-weight: lighter;
-}
-.live .stage .stage-tempo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.live .stage .stage-tempo .tempo-video {
-  width: 60%;
-}
-.live .stage .stage-tempo .tempo-video a {
-  text-decoration: none;
-  color: inherit;
-}
-.live .stage .stage-tempo .tempo-video a img {
-  width: 100%;
-}
-.live .stage .stage-tempo .tempo-text {
-  width: 25%;
-}
-.live .stage .stage-tempo .tempo-text h2 {
+.live .surprise .lose h2 {
+  padding-bottom: 2rem;
   font-size: 2rem;
   font-weight: lighter;
-  padding-block: 1rem;
+}
+.live .surprise .lose p {
+  padding-bottom: 2rem;
+  width: 50%;
+  font-size: 1.1rem;
+}
+.live .surprise .lose figure {
+  margin-bottom: 2rem;
+}
+.live .surprise .lose figure img {
+  width: 70%;
+}
+.live .surprise .lose figure figcaption {
+  font-size: 0.8rem;
+}
+.live .surprise .add-color {
+  padding-top: 5rem;
+}
+.live .surprise .add-color h2 {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.live .surprise .add-color p {
+  padding-bottom: 2rem;
+  width: 50%;
+  font-size: 1.1rem;
+}
+.live .surprise .add-color .first {
+  margin-bottom: 2rem;
+}
+.live .surprise .add-color .first img {
+  width: 50%;
+}
+.live .surprise .add-color .first figcaption {
+  font-size: 0.8rem;
+}
+.live .surprise .add-color .second {
+  margin-bottom: 2rem;
+}
+.live .surprise .add-color .second img {
+  width: 70%;
+}
+.live .surprise .add-color .second figcaption {
+  font-size: 0.8rem;
+}
+.live .surprise .add-color button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 2px solid #0000FF;
+  color: #0000FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.live .surprise .add-color .hidden {
+  padding-top: 3rem;
 }/*# sourceMappingURL=live.css.map */

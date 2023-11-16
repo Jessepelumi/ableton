@@ -15,7 +15,7 @@
         }
     }
 
-    div {
+    header {
         .header {
             display: flex;
             flex-direction: column;
@@ -69,7 +69,7 @@
                 justify-content: center;
                 align-items: center;
                 h2 {
-                    padding: 6rem;
+                    padding: 7rem;
                     font-size: 2.5rem;
                     font-weight: lighter;
                 }
@@ -108,7 +108,7 @@
                 }
             }
             .find-live-link {
-                padding: 6rem;
+                padding: 7rem;
                 .find-live-text {
                     h2 {
                         padding-bottom: 3rem;
@@ -141,7 +141,7 @@
             //flex-direction: column;
             .ideas-heading {
                 h2 {
-                    padding: 6rem;
+                    padding: 7rem;
                     font-size: 5rem;
                     font-weight: lighter;
                 }
@@ -280,7 +280,7 @@
                 justify-content: center;
                 align-items: center;
                 h2 {
-                    padding: 6rem;
+                    padding: 7rem;
                     font-size: 2.5rem;
                     font-weight: lighter;
                 }
@@ -348,7 +348,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0 6rem;
+        padding: 0 7rem;
         button {
             width: 100%;
             display: flex;
@@ -384,46 +384,84 @@
     }
 
     .surprise {
-        padding: 6rem;
-        .surprise-heading h2 {
-            font-size: 5rem;
-            font-weight: lighter;
+        padding: 7rem;
+        .surprise-heading {
+            h2 {
+                font-size: 5rem;
+                font-weight: lighter;
+                padding-bottom: 5rem;
+            }
+            img {
+                width: 100%;
+            }
         }
-        img {
-            width: 100%;
-            //aspect-ratio: 1.5/1;
-            //padding-block: 2rem;
-        }
-    }
-
-    .stage {
-        padding-block: 6rem;
-        .stage-heading h2 {
-            padding: 6rem;
-            font-size: 6.5rem;
-            font-weight: lighter;
-        }
-        .stage-tempo {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .tempo-video {
-                width: 60%;
-                a {
-                    text-decoration: none;
-                    color: inherit;
-                    img {
-                        width: 100%;
-                    }
+        .lose {
+            padding-top: 5rem;
+            h2 {
+                padding-bottom: 2rem;
+                font-size: 2rem;
+                font-weight: lighter;
+            }
+            p {
+                padding-bottom: 2rem;
+                width: 50%;
+                font-size: 1.1rem;
+            }
+            figure {
+                margin-bottom: 2rem;
+                img {
+                    width: 70%;
+                }
+                figcaption {
+                    font-size: 0.8rem;
                 }
             }
-            .tempo-text {
-                width: 25%;
-                h2 {
-                    font-size: 2rem;
-                    font-weight: lighter;
-                    padding-block: 1rem;
+        }
+        .add-color {
+            //width: 70%;
+            padding-top: 5rem;
+            h2 {
+                padding-bottom: 2rem;
+                font-size: 2rem;
+                font-weight: lighter;
+            }
+            p {
+                padding-bottom: 2rem;
+                width: 50%;
+                font-size: 1.1rem;
+            }
+            .first {
+                margin-bottom: 2rem;
+                img {
+                    width: 50%;
                 }
+                figcaption {
+                    font-size: 0.8rem;
+                }
+            }
+            .second {
+                margin-bottom: 2rem;
+                img {
+                    width: 70%;
+                }
+                figcaption {
+                    font-size: 0.8rem;
+                }
+            }
+            button {
+                width: 100%;
+                padding: 1rem;
+                font-size: 1.5rem;
+                background-color: transparent;
+                border: 2px solid $deepblue;
+                color: $deepblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+            }
+            .hidden {
+                padding-top: 3rem;
             }
         }
     }

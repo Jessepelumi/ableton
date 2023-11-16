@@ -1,9 +1,14 @@
 import "../sass/live.css";
 import { Link } from "react-router-dom";
-import { PlayCircle, CaretRight, Plus } from "@phosphor-icons/react";
-import { useEffect } from "react";
+import { PlayCircle, CaretRight, Plus, Minus } from "@phosphor-icons/react";
+import { useEffect, useState } from "react";
 
 const Live = () => {
+
+    const [open, setOpen] = useState(false);
+    const icon = open ? (<Minus size={25} weight="bold" />) : (<Plus size={25} weight="bold" />);
+    const firstButtonText = open ? ("Show less Roar sounds") : ("Discover more Roar sounds");
+    const secondButtonText = open ? ("Show less Granulator III sounds") : ("Discover more Granulator III sounds");
 
     useEffect(() => {
         document.title = "What's new in Live 12 | Ableton";
@@ -22,7 +27,7 @@ const Live = () => {
                 <Link>Buy now</Link>
             </nav>
 
-            <div>
+            <header>
                 <div className="header-video">
                     <figure>
                         <div>
@@ -35,9 +40,9 @@ const Live = () => {
                         </figcaption>
                     </figure>
                 </div>
-            </div>
+            </header>
 
-            <div className="find-live">
+            <section className="find-live">
                 <div>
                     <div className="find-live-heading">
                         <h2>Whatever music you make, and whoever you are as a music maker, there's always more to explore in Live. See how you can go further with Live 12.</h2>
@@ -72,9 +77,9 @@ const Live = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="ideas">
+            <section className="ideas">
                 <div>
                     <div className="ideas-heading">
                         <h2>Pray freely with ideas</h2>
@@ -200,75 +205,118 @@ const Live = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="surprise">
+            <section className="surprise">
 
                 <div className="surprise-heading">
                     <h2>Surprise yourself with the sounds you create</h2>
                     <img src="https://ableton-production.imgix.net/components/text-beside-media/001882720001-web-1610.jpg?auto=compress%2Cformat&w=1920" alt="" />
-                    <div className="surprise-heading-image">
-                        
-                    </div>
                 </div>
 
-            </div>
-
-            <div className="stage">
-
-                <div className="stage-heading">
-                    <h2>Do more on stage</h2>
+                <div className="lose">
+                    <h2>Lose yourself in Meld</h2>
+                    <p>
+                        Live's new MPE-capable synthesizer is designed for sound variety, playfulness and character. Equipped with twin oscillators and an extensive modulation matrix, Meld excels at textural soundscapes, harmonic and atonal sounds, and rhythmic drones.
+                    </p>
+                    <figure>
+                        <img src="https://ableton-production.imgix.net/devices/screenshots/meld-sub-city%402x.png?fm=png" alt="" />
+                        <figcaption>
+                            Program Meld's dual oscillators with dedicated LFOs and an extensive modulation matrix
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://ableton-production.imgix.net/devices/screenshots/meld-carbon-strings%402x.png?fm=png" alt="" />
+                        <figcaption>
+                            Each of Meld's oscillator presets comes with two Engines parameters, carefully chosen for maximum sound design versatility
+                        </figcaption>
+                    </figure>
                 </div>
 
-                <div className="stage-tempo">
-                    <div className="tempo-video">
-                        <a href="https://www.youtube.com/watch?v=OP6EKAggYyE" target="_blank">
-                            <figure>
-                                <img src="https://ableton-production.imgix.net/live/poster-mpe.jpg?auto=compress%2Cformat&w=1680" alt="" />
+                <div className="add-color">
+                    <h2>Add color with Roar</h2>
+                    <p>
+                        Bathe your sound in subtle warmth - or break it down with wild distortion. Live's new coloring and saturation device is made up of three saturation stages for serial, parallel or even mid/side and multiband configurations, and its built-in compressor and feedback routing give you even more ways to shape your sound.
+                    </p>
+                    <figure className="first">
+                        <img src="https://ableton-production.imgix.net/devices/screenshots/roar-bassline%402x.png?fm=png" alt="" />
+                        <figcaption>
+                            Apply heavy distortion to a specific frequency range with Roar's multiband configuration
+                        </figcaption>
+                    </figure>
+                    <figure className="second">
+                        <img src="https://ableton-production.imgix.net/devices/screenshots/roar-guitar%402x.png?fm=png" alt="" />
+                        <figcaption>
+                            Modulate your sound with Roar's Envelope Follower
+                        </figcaption>
+                    </figure>
+
+                    <button onClick={() => setOpen(!open)}>
+                        {icon}
+                        {firstButtonText}
+                    </button>
+
+                    {open && (
+                        <div className="hidden">
+                            <figure className="second">
+                                <img src="https://ableton-production.imgix.net/devices/screenshots/roar-beat%402x.png?fm=png" alt="" />
                                 <figcaption>
-                                Artist demonstrates MPE using a Roli Seaboard, Push and Live 11's new Note Expression View
+                                    Apply heavy distortion to a specific frequency range with Roar's multiband configuration
                                 </figcaption>
                             </figure>
-                        </a>
-                    </div>
-                    <div className="tempo-text">
-                        <h2>Tempo following</h2>
-                        <p>
-                            Live listens to and adjusts its tempo based on incoming audio in real time, making it a dynamic part of the band instead of the tempo source that everyone has to follow. When you DJ, you can even turn Live into a tempo-synced FX box.
-                        </p>
-                    </div>
-                    <div></div>
-                </div>
-
-            </div>
-
-            <div className="stage">
-
-                <div className="stage-heading">
-                    <h2>Do more on stage</h2>
-                </div>
-
-                <div className="stage-tempo">
-                    <div className="tempo-video">
-                        <a href="https://www.youtube.com/watch?v=OP6EKAggYyE" target="_blank">
-                            <figure>
-                                <img src="https://ableton-production.imgix.net/live/poster-mpe.jpg?auto=compress%2Cformat&w=1680" alt="" />
+                            <figure className="second">
+                                <img src="https://ableton-production.imgix.net/devices/screenshots/roar-synth%402x.png?fm=png" alt="" />
                                 <figcaption>
-                                Artist demonstrates MPE using a Roli Seaboard, Push and Live 11's new Note Expression View
+                                    Apply heavy distortion to a specific frequency range with Roar's multiband configuration
                                 </figcaption>
                             </figure>
-                        </a>
-                    </div>
-                    <div className="tempo-text">
-                        <h2>Tempo following</h2>
-                        <p>
-                            Live listens to and adjusts its tempo based on incoming audio in real time, making it a dynamic part of the band instead of the tempo source that everyone has to follow. When you DJ, you can even turn Live into a tempo-synced FX box.
-                        </p>
-                    </div>
-                    <div></div>
+                        </div>
+                    )}
                 </div>
 
-            </div>
+                <div className="add-color">
+                    <h2>Get expressive with granular synthesis</h2>
+                    <p>
+                        Granulator III, the latest version of Robert Henke's granular synthesizer, introduces expressive control that lets you bend notes and add vibrato and glissando. Plus, you can now capture audio in real time and start manipulating it immediately.
+                    </p>
+                    <figure className="second">
+                        <img src="https://ableton-production.imgix.net/devices/screenshots/g3-piano%402x.png?fm=png" alt="" />
+                        <figcaption>
+                            Granulator III's Cloud playback mode excels at layered pad and drone sounds
+                        </figcaption>
+                    </figure>
+                    <figure className="second">
+                        <img src="https://ableton-production.imgix.net/devices/screenshots/g3-strings%402x.png?fm=png" alt="" />
+                        <figcaption>
+                            In Loop mode, grains play one after the other without overlapping
+                        </figcaption>
+                    </figure>
+
+                    <button onClick={() => setOpen(!open)}>
+                        {icon}
+                        {secondButtonText}
+                    </button>
+
+                    {open && (
+                        <div className="hidden">
+                            <figure className="second">
+                                <img src="https://ableton-production.imgix.net/devices/screenshots/g3-voices%402x.png?fm=png" alt="" />
+                                <figcaption>
+                                    In Classic mode, grains overlap and fade into each other
+                                </figcaption>
+                            </figure>
+                            <figure className="second">
+                                <img src="https://ableton-production.imgix.net/devices/screenshots/g3-abstract%402x.png?fm=png" alt="" />
+                                <figcaption>
+                                    Create wild and unpredictable sounds with just a handful of intuitive controls
+                                </figcaption>
+                            </figure>
+                        </div>
+                    )}
+                </div>
+
+
+            </section>
 
 
 
