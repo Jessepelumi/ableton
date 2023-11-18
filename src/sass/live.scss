@@ -417,8 +417,7 @@
                 }
             }
         }
-        .add-color {
-            //width: 70%;
+        .add-get {
             padding-top: 5rem;
             h2 {
                 padding-bottom: 2rem;
@@ -431,7 +430,20 @@
                 font-size: 1.1rem;
             }
             .first {
+                display: flex;
+                flex-direction: column;
                 margin-bottom: 2rem;
+                user-select: none;
+                div {
+                    background-color: $deepblue;
+                    color: white;
+                    width: fit-content;
+                    padding: 0.5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 0.2rem;
+                }
                 img {
                     width: 50%;
                 }
@@ -441,6 +453,17 @@
             }
             .second {
                 margin-bottom: 2rem;
+                user-select: none;
+                div {
+                    background-color: $deepblue;
+                    color: white;
+                    width: fit-content;
+                    padding: 0.5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 0.2rem;
+                }
                 img {
                     width: 70%;
                 }
@@ -459,9 +482,173 @@
                 justify-content: center;
                 align-items: center;
                 gap: 1rem;
+                user-select: none;
             }
             .hidden {
                 padding-top: 3rem;
+            }
+        }
+        .final {
+            padding-top: 5rem;
+            display: grid;
+            gap: 10rem;
+            grid-template-columns: 1fr 1fr;
+            .final-container {
+                h2 {
+                    padding-bottom: 2rem;
+                    font-size: 2rem;
+                    font-weight: lighter;
+                }
+                .final-image {
+                    position: relative;
+                    img {
+                        width: 100%;
+                    }
+                }
+                p {
+                    font-size: 1.1rem;
+                    line-height: 150%;
+                }
+                .final-button {
+                    background-color: $deepblue;
+                    color: white;
+                    width: fit-content;
+                    padding: 0.5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 0.2rem;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0.5%;
+                }
+            }
+        }
+    }
+
+    article {
+        //height: 100vh;
+        padding: 7rem 0;
+        background-color: $magenta;
+        h2 {
+            font-size: 4rem;
+            font-weight: lighter;
+            padding: 0 7rem 7rem;
+        }
+        .article-first {
+            //display: flex;
+            div {
+                padding-bottom: 5rem;
+                display: flex;
+                img {
+                    width: 60%;
+                }
+                div {
+                    width: 40%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 7rem;
+                    h3 {
+                        font-size: 1.8rem;
+                        font-weight: lighter;
+                        padding-bottom: 1rem;
+                    }
+                }
+            }
+        }
+        .article-second {
+            padding: 0 7rem;
+            img {
+                width: 100%;
+            }
+            .inner-second {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10rem;
+                padding-block: 3rem;
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    h3 {
+                        font-size: 1.8rem;
+                        font-weight: lighter;
+                        padding-bottom: 1rem;
+                    }
+                }
+            }
+        }
+        .article-third {
+            padding: 0 7rem;
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: inherit;
+                figure {
+                    div {
+                        position: relative;
+                        img {
+                            width: 100%;
+                        }
+                        span {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translateY(-50%) translateX(-50%);
+                            color: $deepblue;
+                        }
+                    }
+                }
+            }
+            .inner-second {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10rem;
+                padding-block: 3rem;
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    h3 {
+                        font-size: 1.8rem;
+                        font-weight: lighter;
+                        padding-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .all-features {
+        .features-first {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
+            a {
+                text-decoration: none;
+                color: $deepblue;
+                font-size: 2rem;
+            }
+        }
+        .features-second {
+            background-color: $paleyellow;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
+            h3 {
+                font-size: 2rem;
+                font-weight: lighter;
+                padding-bottom: 0.5rem;
+            }
+            a {
+                color: inherit;
+                font-size: 1.5rem;
+                display: flex;
+                align-items: center;
             }
         }
     }
