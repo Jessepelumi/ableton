@@ -11,28 +11,28 @@
 .push .push-nav a:last-child {
   color: #0000FF;
 }
-.push div .header-video {
+.push header .header-video {
   position: relative;
 }
-.push div .header-video figure div video {
+.push header .header-video figure div video {
   width: 100%;
 }
-.push div .header-video figure figcaption {
+.push header .header-video figure figcaption {
   position: absolute;
   top: 10%;
   left: 10%;
   color: white;
 }
-.push div .header-video figure figcaption h2 {
+.push header .header-video figure figcaption h2 {
   color: #B6FFC0;
   font-size: 7rem;
   font-weight: lighter;
 }
-.push div .header-video figure figcaption p {
+.push header .header-video figure figcaption p {
   font-size: 1.5rem;
   padding-bottom: 1rem;
 }
-.push div .header-video figure figcaption button {
+.push header .header-video figure figcaption button {
   border: none;
   padding: 0.5rem 2rem;
   font-size: 1.2rem;
@@ -42,10 +42,9 @@
 .push .focus {
   background-color: black;
   color: white;
-  padding: 6rem;
+  padding: 7rem;
 }
 .push .focus .focus-header {
-  width: 50%;
   padding-bottom: 2rem;
 }
 .push .focus .focus-header h2 {
@@ -53,6 +52,7 @@
   font-weight: lighter;
 }
 .push .focus .focus-header p {
+  width: 55%;
   font-size: 1.2rem;
 }
 .push .focus .focus2 {
@@ -103,4 +103,128 @@
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
+}
+.push .expressive {
+  background-color: #D5D3FF;
+  padding: 7rem;
+}
+.push .expressive .expressive-first h2 {
+  font-size: 5rem;
+  font-weight: lighter;
+  padding-bottom: 3rem;
+}
+.push .expressive .expressive-first p {
+  width: 55%;
+  font-size: 1.2rem;
+}
+.push .expressive .expressive-second {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.push .setup .setup-first {
+  padding: 7rem;
+}
+.push .setup .setup-first h2 {
+  font-size: 5rem;
+  font-weight: lighter;
+  padding-bottom: 3rem;
+}
+.push .setup .setup-first p {
+  width: 55%;
+  font-size: 1.2rem;
+}
+.push .setup .setup-video video {
+  width: 100%;
+}
+.push .intuitive .intuitive-first {
+  padding: 7rem;
+}
+.push .intuitive .intuitive-first h2 {
+  font-size: 5rem;
+  font-weight: lighter;
+  padding-bottom: 3rem;
+}
+.push .intuitive .intuitive-first p {
+  width: 55%;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.push .intuitive .intuitive-first a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #0000FF;
+}
+.push .configurations {
+  background-color: #D5D3FF;
+}
+.push .configurations .configurations-first {
+  padding: 7rem;
+}
+.push .configurations .configurations-first h2 {
+  font-size: 5rem;
+  font-weight: lighter;
+  padding-bottom: 3rem;
+}
+.push .configurations .configurations-first p {
+  width: 55%;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.push .configurations .configurations-first a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #0000FF;
+}
+.push .configurations .configurations-shop {
+  padding: 7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+.push .configurations .configurations-shop div {
+  display: flex;
+  flex-direction: column;
+}
+.push .configurations .configurations-shop div img {
+  width: 100%;
+}
+.push .configurations .configurations-shop div h2 {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+.push .configurations .configurations-shop div .shop-first {
+  border-bottom: 2px solid black;
+  padding-block: 1.5rem;
+}
+.push .configurations .configurations-shop div .shop-first h3 {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.push .configurations .configurations-shop div .shop-first p {
+  padding-bottom: 0.5rem;
+  font-size: 1.09rem;
+}
+.push .configurations .configurations-shop div .shop-second {
+  padding-block: 1.5rem;
+}
+.push .configurations .configurations-shop div .shop-second p {
+  padding-bottom: 0.5rem;
+  font-size: 1.09rem;
+  font-weight: lighter;
+}
+.push .configurations .configurations-shop div .buy-now {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.push .configurations .configurations-shop div .buy-now h2 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.push .configurations .configurations-shop div .buy-now button {
+  border: none;
+  color: white;
+  background-color: #0000FF;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
 }/*# sourceMappingURL=push.css.map */

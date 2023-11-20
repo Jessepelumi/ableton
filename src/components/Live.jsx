@@ -5,10 +5,15 @@ import { useEffect, useRef, useState } from "react";
 
 const Live = () => {
 
-    const [open, setOpen] = useState(false);
-    const icon = open ? (<Minus size={25} weight="bold" />) : (<Plus size={25} weight="bold" />);
-    const firstButtonText = open ? ("Show less Roar sounds") : ("Discover more Roar sounds");
-    const secondButtonText = open ? ("Show less Granulator III sounds") : ("Discover more Granulator III sounds");
+    const [elementOneVisible, setElementOneVisible] = useState(false);
+    const toggleElementOne = () => {
+        setElementOneVisible(!elementOneVisible);
+    }
+
+    const [elementTwoVisible, setElementTwoVisible] = useState(false);
+    const toggleElementTwo = () => {
+        setElementTwoVisible(!elementTwoVisible);
+    }
 
     const [isPlaying1, setIsPlaying1] = useState(false);
     const [isPlaying2, setIsPlaying2] = useState(false);
@@ -394,12 +399,12 @@ const Live = () => {
                         </figcaption>
                     </figure>
 
-                    <button onClick={() => setOpen(!open)}>
-                        {icon}
-                        {firstButtonText}
+                    <button onClick={toggleElementOne}>
+                        {elementOneVisible ? (<Minus size={25} weight="bold" />): (<Plus size={25} weight="bold" />)}
+                        {elementOneVisible ? ("Show less Roar sounds") : ("Discover more Roar sounds")}
                     </button>
 
-                    {open && (
+                    {elementOneVisible && (
                         <div className="hidden">
                             <figure className="second">
                                 <span>
@@ -483,12 +488,12 @@ const Live = () => {
                         </figcaption>
                     </figure>
 
-                    <button onClick={() => setOpen(!open)}>
-                        {icon}
-                        {secondButtonText}
+                    <button onClick={toggleElementTwo}>
+                        {elementTwoVisible ? (<Minus size={25} weight="bold" />): (<Plus size={25} weight="bold" />)}
+                        {elementTwoVisible ? "Show less Granulator III sounds" : "Discover more Granulator III sounds"}
                     </button>
 
-                    {open && (
+                    {elementTwoVisible && (
                         <div className="hidden">
                             <figure className="second">
                                 <span>
