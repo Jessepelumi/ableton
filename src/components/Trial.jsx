@@ -1,9 +1,5 @@
 const Trial = () => {
-    return (
-        <div className="trial">
-            
-        </div>
-    );
-}
- 
+  return <div className="trial"></div>;
+};
+
 export default Trial;
