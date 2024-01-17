@@ -1,123 +1,123 @@
 @import "variables";
 
 .note {
-    header {
-        .header-video {
+  header {
+    .header-video {
+      position: relative;
+      figure {
+        div video {
+          width: 100%;
+        }
+        figcaption {
+          position: absolute;
+          top: 10%;
+          left: 10%;
+          color: white;
+          width: 30%;
+          h2 {
+            color: $yellow;
+            font-size: 7rem;
+            font-weight: lighter;
+          }
+          p {
+            font-size: 1.5rem;
+            padding-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  section.section1 {
+    display: flex;
+    .section1-text {
+      width: 40%;
+    }
+    .section1-video {
+      width: 60%;
+      .ideas3-video {
+        a {
+          text-decoration: none;
+          color: inherit;
+          figure {
             position: relative;
-            figure {
-                div video {
-                    width: 100%;
-                }
-                figcaption {
-                    position: absolute;
-                    top: 10%;
-                    left: 10%;
-                    color: white;
-                    width: 30%;
-                    h2 {
-                        color: $yellow;
-                        font-size: 7rem;
-                        font-weight: lighter;
-                    }
-                    p {
-                        font-size: 1.5rem;
-                        padding-bottom: 1rem;
-                    }
-                }
-            }
-        }
-    }
-
-    section.section1 {
-        display: flex;
-        .section1-text {
-            width: 40%;
-        }
-        .section1-video {
-            width: 60%;
-            .ideas3-video {
-                a {
-                    text-decoration: none;
-                    color: inherit;
-                    figure {
-                        position: relative;
-                        div {
-                            position: relative;
-                            img {
-                                width: 100%;
-                            }
-                            span {
-                                color: $deepblue;
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                transform: translateY(-50%) translateX(-50%);
-                            }
-                        }
-                        figcaption {
-                            background-color: $lightgreen;
-                            width: 50%;
-                            padding: 0 0.5rem;
-                            position: absolute;
-                            bottom: 0;
-                            right: 0;
-                            font-size: 0.8rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    section.section2 {
-        .ideas2 {
-            padding: 3rem 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             div {
-                width: 80%;
-                display: flex;
-                //justify-content: space-between;
-                gap: 10%;
-                .ideas2-image {
-                    width: 60%;
-                    img {
-                        width: 100%;
-                    }
-                }
-                .ideas2-text {
-                    width: 50%;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    h2 {
-                        font-size: 1.5rem;
-                        font-weight: lighter;
-                    }
-                }
+              position: relative;
+              img {
+                width: 100%;
+              }
+              span {
+                color: $deepblue;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateY(-50%) translateX(-50%);
+              }
             }
+            figcaption {
+              background-color: $lightgreen;
+              width: 50%;
+              padding: 0 0.5rem;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              font-size: 0.8rem;
+            }
+          }
         }
+      }
     }
+  }
 
-    section.section3 {
-        padding: 7rem;
-        .section3-image {
-            figure {
-                position: relative;
-                img {
-                    width: 100%;
-                }
-                figcaption {
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
-                    background-color: $lightgreen;
-                    padding: 0 0.5rem;
-                    width: 30%;
-                    font-size: 0.8rem;
-                }
-            }
+  section.section2 {
+    .ideas2 {
+      padding: 3rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      div {
+        width: 80%;
+        display: flex;
+        //justify-content: space-between;
+        gap: 10%;
+        .ideas2-image {
+          width: 60%;
+          img {
+            width: 100%;
+          }
         }
+        .ideas2-text {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          h2 {
+            font-size: 1.5rem;
+            font-weight: lighter;
+          }
+        }
+      }
     }
+  }
+
+  section.section3 {
+    padding: 7rem;
+    .section3-image {
+      figure {
+        position: relative;
+        img {
+          width: 100%;
+        }
+        figcaption {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          background-color: $lightgreen;
+          padding: 0 0.5rem;
+          width: 30%;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
 }
