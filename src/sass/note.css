@@ -1,22 +1,105 @@
-.note .note-header .header-video {
+.note header .header-video {
   position: relative;
 }
-.note .note-header .header-video figure div video {
+.note header .header-video figure div video {
   width: 100%;
 }
-.note .note-header .header-video figure figcaption {
+.note header .header-video figure figcaption {
   position: absolute;
   top: 10%;
   left: 10%;
   color: white;
   width: 30%;
 }
-.note .note-header .header-video figure figcaption h2 {
+.note header .header-video figure figcaption h2 {
   color: rgba(255, 255, 0, 0.8039215686);
   font-size: 7rem;
   font-weight: lighter;
 }
-.note .note-header .header-video figure figcaption p {
+.note header .header-video figure figcaption p {
   font-size: 1.5rem;
   padding-bottom: 1rem;
+}
+.note section.section1 {
+  display: flex;
+}
+.note section.section1 .section1-text {
+  width: 40%;
+}
+.note section.section1 .section1-video {
+  width: 60%;
+}
+.note section.section1 .section1-video .ideas3-video a {
+  text-decoration: none;
+  color: inherit;
+}
+.note section.section1 .section1-video .ideas3-video a figure {
+  position: relative;
+}
+.note section.section1 .section1-video .ideas3-video a figure div {
+  position: relative;
+}
+.note section.section1 .section1-video .ideas3-video a figure div img {
+  width: 100%;
+}
+.note section.section1 .section1-video .ideas3-video a figure div span {
+  color: #0000FF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.note section.section1 .section1-video .ideas3-video a figure figcaption {
+  background-color: #B6FFC0;
+  width: 50%;
+  padding: 0 0.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.8rem;
+}
+.note section.section2 .ideas2 {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.note section.section2 .ideas2 div {
+  width: 80%;
+  display: flex;
+  gap: 10%;
+}
+.note section.section2 .ideas2 div .ideas2-image {
+  width: 60%;
+}
+.note section.section2 .ideas2 div .ideas2-image img {
+  width: 100%;
+}
+.note section.section2 .ideas2 div .ideas2-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.note section.section2 .ideas2 div .ideas2-text h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.note section.section3 {
+  padding: 7rem;
+}
+.note section.section3 .section3-image figure {
+  position: relative;
+}
+.note section.section3 .section3-image figure img {
+  width: 100%;
+}
+.note section.section3 .section3-image figure figcaption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #B6FFC0;
+  padding: 0 0.5rem;
+  width: 30%;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=note.css.map */

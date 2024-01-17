@@ -10,7 +10,7 @@
 .footer-first {
   font-size: 1.1rem;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   padding-bottom: 4rem;
 }
 .footer-first h2 {
