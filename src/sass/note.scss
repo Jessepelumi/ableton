@@ -119,6 +119,22 @@
         }
       }
     }
+    .section3-subtext {
+        display: flex;
+        gap: 7rem;
+        padding-top: 3rem;
+        div {
+            width: 100%;
+            h2 {
+                font-size: 2rem;
+                font-weight: lighter;
+                padding-bottom: 1rem;
+            }
+            p {
+                font-size: large;
+            }
+        }
+    }
   }
 
   aside {
@@ -165,6 +181,34 @@
           }
         }
       }
+    }
+    .faq {
+        border-top: 2px solid black;
+        cursor: default;
+        .faq-title {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            padding-block: 2rem;
+            h2{
+                font-weight: lighter;
+                font-size: 1.65rem;
+            }
+        }
+        .faq-content {
+            padding-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            font-size: larger;
+            width: 65%;
+            // .content {
+            //     padding-bottom: 2rem;
+            // }
+            // .add {
+            //     padding-bottom: 2rem;
+            // }
+        }
     }
   }
 }

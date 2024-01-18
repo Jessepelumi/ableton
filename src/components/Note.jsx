@@ -1,6 +1,6 @@
 import "../sass/note.css";
-import { useEffect } from "react";
-import { PlayCircle, Plus } from "@phosphor-icons/react";
+import { useEffect, useState } from "react";
+import { PlayCircle, Plus, Minus } from "@phosphor-icons/react";
 
 const Note = () => {
   useEffect(() => {
@@ -16,29 +16,44 @@ const Note = () => {
     {
       id: 2,
       title: "Will new features be added to Note?",
-      content: "No, Note is only available for iPhone and iPad.",
+      content: "Yes, new Note features are planned for the future. Keep an eye on this page, or subscribe to the Ableton newsletter to stay updated.",
     },
     {
       id: 3,
       title: "Do I need a version of Ableton Live to use Note?",
-      content: "No, Note is only available for iPhone and iPad.",
+      content: "No, you can use Note on its own. If you want to take your Note projects further in Live you'll need an Ableton account and Live 11.2.5 or later. ",
+      additional: "If you don't have Live already you can try it for free for 30 days. Learn about Ableton Live."
     },
     {
       id: 4,
       title: "How can I transfer my projects from Note to Live?",
-      content: "No, Note is only available for iPhone and iPad.",
+      content: "Authorize Ableton Cloud in Note’s settings and in Live’s preferences, and your uploaded projects will automatically appear in Live’s browser. Learn about Ableton Cloud.",
     },
     {
       id: 5,
       title: "What are the system requirements for my phone?",
-      content: "No, Note is only available for iPhone and iPad.",
+      content: "Note works on devices which support iOS 15 and above.",
     },
     {
       id: 6,
       title: "Will new features be added to note?",
-      content: "No, Note is only available for iPhone and iPad.",
+      content: "We've already added a number of new features to Note and plan to keep improving the app as we listen to your wishes and feedback. Check out the main updates in this article.",
     },
   ];
+
+  const [selectedFAQ, setSelectedFAQs] = useState([]);
+
+  const toggleFAQ = (faqId) => {
+    setSelectedFAQs((prevSelectedFAQs) => {
+      if (prevSelectedFAQs.includes(faqId)) {
+        // If FAQ is already selected, remove it
+        return prevSelectedFAQs.filter((id) => id !== faqId);
+      } else {
+        // If FAQ is not selected, add it
+        return [...prevSelectedFAQs, faqId];
+      }
+    });
+  };
 
   return (
     <div className="note">
@@ -127,25 +142,18 @@ const Note = () => {
           </figure>
         </div>
 
-        <div className="ideas-text">
-          <div className="live-options-features">
+        <div className="section3-text">
+          <div className="section3-subtext">
             <div>
-              <h2>Reshape MIDI patterns</h2>
+              <h2>Ideas that travel</h2>
               <p>
-                Apply a variety of simple or complex variations to your MIDI
-                clips with new MIDI Transformations. Add ornaments and
-                articulations, draw acceleration and deceleration curves,
-                connect successive notes and chords, simulate the strum of a
-                guitar, and more.
+              Connect Note to Ableton Cloud to send your five favorite Note Sets directly to Live’s browser, and pick up where you left off. Ableton Cloud is freely available for every edition of Live 11.2.5, including the free trial. 
               </p>
             </div>
             <div>
-              <h2>Generate inspiration</h2>
+              <h2>Sounds farmiliar</h2>
               <p>
-                Conjure up melodies, chords and rhythms with the help of new
-                MIDI Generators. Set constraints and let your chosen Generator
-                create playful and original ideas for you to develop and turn
-                into your own.
+              Note uses instruments and devices from Ableton Live. Play synth lines with melodic presets, finger-drum beats using Drum Sampler kits, and create instrumental melodies with Melodic Sampler instruments. Use Reverb, Delay and Chorus-Ensemble to give your sounds space and depth, or play with color and texture using Saturator, Redux and Phaser-Flanger.
               </p>
             </div>
           </div>
@@ -182,12 +190,25 @@ const Note = () => {
         </div>
 
         {faqs.map((faq) => (
-          <div>
-            <div>
-                <span><Plus size={25} weight="bold" /></span>
+          <div className="faq" key={faq.id} onClick={() => toggleFAQ(faq.id)}>
+            <div className="faq-title">
+            <span>
+                {selectedFAQ.includes(faq.id) ? (
+                  // Minus icon when FAQ is expanded
+                  <Minus size={25} weight="bold" />
+                ) : (
+                  // Plus icon when FAQ is collapsed
+                  <Plus size={25} weight="bold" />
+                )}
+              </span>
                 <h2>{faq.title}</h2>
             </div>
-            <div>{faq.content}</div>
+            {selectedFAQ.includes(faq.id) && 
+            <div className="faq-content">
+                <p>{faq.content}</p>
+                <p>{faq.additional}</p>
+            </div>
+            }
           </div>
         ))}
       </aside>

@@ -103,6 +103,22 @@
   width: 30%;
   font-size: 0.8rem;
 }
+.note section.section3 .section3-subtext {
+  display: flex;
+  gap: 7rem;
+  padding-top: 3rem;
+}
+.note section.section3 .section3-subtext div {
+  width: 100%;
+}
+.note section.section3 .section3-subtext div h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+.note section.section3 .section3-subtext div p {
+  font-size: large;
+}
 .note aside {
   padding: 7rem;
   background-color: #d3d3d3;
@@ -146,4 +162,26 @@
 .note aside .watch a figure figcaption {
   font-size: 1.5rem;
   color: #0000ff;
+}
+.note aside .faq {
+  border-top: 2px solid black;
+  cursor: default;
+}
+.note aside .faq .faq-title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-block: 2rem;
+}
+.note aside .faq .faq-title h2 {
+  font-weight: lighter;
+  font-size: 1.65rem;
+}
+.note aside .faq .faq-content {
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: larger;
+  width: 65%;
 }/*# sourceMappingURL=note.css.map */
