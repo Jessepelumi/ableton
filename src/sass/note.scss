@@ -120,4 +120,51 @@
       }
     }
   }
+
+  aside {
+    padding: 7rem;
+    background-color: $lightgray;
+    .help {
+      h2 {
+        font-size: 3rem;
+        font-weight: lighter;
+        padding-bottom: 2rem;
+      }
+      p {
+        width: 50%;
+        font-size: 1.1rem;
+        font-weight: lighter;
+      }
+    }
+    .watch {
+        padding-bottom: 2rem;
+      a {
+        text-decoration: none;
+        figure {
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+          position: relative;
+          div {
+            width: 20%;
+            position: relative;
+            img {
+              width: 100%;
+            }
+            span {
+              color: $deepblue;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translateY(-50%) translateX(-50%);
+            }
+          }
+          figcaption {
+            font-size: 1.5rem;
+            color: $deepblue;
+          }
+        }
+      }
+    }
+  }
 }

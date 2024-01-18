@@ -1,11 +1,44 @@
 import "../sass/note.css";
 import { useEffect } from "react";
-import { PlayCircle } from "@phosphor-icons/react";
+import { PlayCircle, Plus } from "@phosphor-icons/react";
 
 const Note = () => {
   useEffect(() => {
     document.title = "Note - an iOS app for forming musical ideas | Ableton";
   }, []);
+
+  const faqs = [
+    {
+      id: 1,
+      title: "Is Note available for Android?",
+      content: "No, Note is only available for iPhone and iPad.",
+    },
+    {
+      id: 2,
+      title: "Will new features be added to Note?",
+      content: "No, Note is only available for iPhone and iPad.",
+    },
+    {
+      id: 3,
+      title: "Do I need a version of Ableton Live to use Note?",
+      content: "No, Note is only available for iPhone and iPad.",
+    },
+    {
+      id: 4,
+      title: "How can I transfer my projects from Note to Live?",
+      content: "No, Note is only available for iPhone and iPad.",
+    },
+    {
+      id: 5,
+      title: "What are the system requirements for my phone?",
+      content: "No, Note is only available for iPhone and iPad.",
+    },
+    {
+      id: 6,
+      title: "Will new features be added to note?",
+      content: "No, Note is only available for iPhone and iPad.",
+    },
+  ];
 
   return (
     <div className="note">
@@ -120,10 +153,43 @@ const Note = () => {
       </section>
 
       <aside>
-        <div>
+        <div className="help">
           <h2>Help & Support</h2>
-          <p></p>
+          <p>
+            For help setting up Note and Cloud, to learn more about features and
+            functions, or to find troubleshooting tips visit the Knowledge Base
+            or read the Note manual.
+          </p>
         </div>
+
+        <div className="watch">
+          <a href="https://youtu.be/smJZcWwJsOw" target="_blank">
+            <figure>
+              <div>
+                <img
+                  src="https://ableton-production.imgix.net/tours/note/poster-learn-note.jpg?auto=compress%2Cformat&w=340"
+                  alt=""
+                />
+                <span>
+                  <PlayCircle size={50} weight="fill" />
+                </span>
+              </div>
+              <figcaption>
+                Watch: Learn how to start your musical ideas in Note
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        {faqs.map((faq) => (
+          <div>
+            <div>
+                <span><Plus size={25} weight="bold" /></span>
+                <h2>{faq.title}</h2>
+            </div>
+            <div>{faq.content}</div>
+          </div>
+        ))}
       </aside>
     </div>
   );

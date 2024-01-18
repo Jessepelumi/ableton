@@ -43,14 +43,14 @@
   width: 100%;
 }
 .note section.section1 .section1-video .ideas3-video a figure div span {
-  color: #0000FF;
+  color: #0000ff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
 .note section.section1 .section1-video .ideas3-video a figure figcaption {
-  background-color: #B6FFC0;
+  background-color: #b6ffc0;
   width: 50%;
   padding: 0 0.5rem;
   position: absolute;
@@ -98,8 +98,52 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: #B6FFC0;
+  background-color: #b6ffc0;
   padding: 0 0.5rem;
   width: 30%;
   font-size: 0.8rem;
+}
+.note aside {
+  padding: 7rem;
+  background-color: #d3d3d3;
+}
+.note aside .help h2 {
+  font-size: 3rem;
+  font-weight: lighter;
+  padding-bottom: 2rem;
+}
+.note aside .help p {
+  width: 50%;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+.note aside .watch {
+  padding-bottom: 2rem;
+}
+.note aside .watch a {
+  text-decoration: none;
+}
+.note aside .watch a figure {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+.note aside .watch a figure div {
+  width: 20%;
+  position: relative;
+}
+.note aside .watch a figure div img {
+  width: 100%;
+}
+.note aside .watch a figure div span {
+  color: #0000ff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.note aside .watch a figure figcaption {
+  font-size: 1.5rem;
+  color: #0000ff;
 }/*# sourceMappingURL=note.css.map */
