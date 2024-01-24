@@ -24,12 +24,13 @@ const Navbar = () => {
 
           <div className="navigation-links">
             <div onClick={() => setOpen(false)}>
+              <Link to="/about">About</Link>
               <Link to="/live">Live</Link>
               <Link to="/push">Push</Link>
               <Link to="/note">Note</Link>
               <Link to="/link">Link</Link>
               <Link to="/shop">Shop</Link>
-              <Link to="/packs">Packs</Link>
+              {/* <Link to="/packs">Packs</Link> */}
               <Link to="/help">Help</Link>
             </div>
             <span onClick={() => setOpen(!open)}>

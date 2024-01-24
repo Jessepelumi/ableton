@@ -2,14 +2,14 @@
   display: flex;
   gap: 1rem;
   padding: 1rem 3rem;
-  border-top: 2px solid #D3D3D3;
+  border-top: 2px solid #d3d3d3;
 }
 .push .push-nav a {
   text-decoration: none;
   color: inherit;
 }
 .push .push-nav a:last-child {
-  color: #0000FF;
+  color: #0000ff;
 }
 .push header .header-video {
   position: relative;
@@ -24,7 +24,7 @@
   color: white;
 }
 .push header .header-video figure figcaption h2 {
-  color: #B6FFC0;
+  color: #b6ffc0;
   font-size: 7rem;
   font-weight: lighter;
 }
@@ -37,7 +37,7 @@
   padding: 0.5rem 2rem;
   font-size: 1.2rem;
   color: white;
-  background-color: #0000FF;
+  background-color: #0000ff;
 }
 .push .focus {
   background-color: black;
@@ -93,7 +93,7 @@
 }
 .push .focus .focus3 div a {
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
 }
 .push .focus .focus3 div a img {
   width: 100%;
@@ -105,7 +105,7 @@
   transform: translateY(-50%) translateX(-50%);
 }
 .push .expressive {
-  background-color: #D5D3FF;
+  background-color: #d5d3ff;
   padding: 7rem;
 }
 .push .expressive .expressive-first h2 {
@@ -152,10 +152,10 @@
 .push .intuitive .intuitive-first a {
   font-size: 1.2rem;
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
 }
 .push .configurations {
-  background-color: #D5D3FF;
+  background-color: #d5d3ff;
 }
 .push .configurations .configurations-first {
   padding: 7rem;
@@ -173,7 +173,7 @@
 .push .configurations .configurations-first a {
   font-size: 1.2rem;
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
 }
 .push .configurations .configurations-shop {
   padding: 7rem;
@@ -224,7 +224,7 @@
 .push .configurations .configurations-shop div .buy-now button {
   border: none;
   color: white;
-  background-color: #0000FF;
+  background-color: #0000ff;
   font-size: 1.1rem;
   padding: 1rem 2rem;
 }/*# sourceMappingURL=push.css.map */

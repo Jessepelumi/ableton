@@ -2,14 +2,14 @@
   display: flex;
   gap: 1rem;
   padding: 1rem 3rem;
-  border-top: 2px solid #D3D3D3;
+  border-top: 2px solid #d3d3d3;
 }
 .live .live-nav a {
   text-decoration: none;
   color: inherit;
 }
 .live .live-nav a:last-child {
-  color: #0000FF;
+  color: #0000ff;
 }
 .live header .header {
   display: flex;
@@ -28,7 +28,7 @@
   align-items: center;
   font-size: 1.5rem;
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
 }
 .live header .header-video {
   position: relative;
@@ -87,7 +87,7 @@
   width: 100%;
 }
 .live .find-live div .find-live-video a figure div span {
-  color: #0000FF;
+  color: #0000ff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -116,10 +116,10 @@
 }
 .live .find-live div .find-live-link .find-live-nav nav a {
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
 }
 .live .ideas {
-  background-color: #FBFFA7;
+  background-color: #fbffa7;
 }
 .live .ideas div .ideas-heading h2 {
   padding: 7rem;
@@ -148,7 +148,7 @@
   width: 100%;
 }
 .live .ideas div .ideas-video a figure div span {
-  color: #0000FF;
+  color: #0000ff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -238,7 +238,7 @@
   width: 100%;
 }
 .live .ideas div .ideas3 .ideas3-video a figure div span {
-  color: #0000FF;
+  color: #0000ff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -280,7 +280,7 @@
   width: 100%;
 }
 .live .live-options div .live-options-video a figure div span {
-  color: #0000FF;
+  color: #0000ff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -327,9 +327,9 @@
   align-items: center;
   padding: 1rem;
   font-size: 1.5rem;
-  color: #0000FF;
+  color: #0000ff;
   background-color: transparent;
-  border: 2px solid #0000FF;
+  border: 2px solid #0000ff;
 }
 .live .learn-more-text {
   display: flex;
@@ -405,7 +405,7 @@
           user-select: none;
 }
 .live .surprise .add-get .first div {
-  background-color: #0000FF;
+  background-color: #0000ff;
   color: white;
   width: -moz-fit-content;
   width: fit-content;
@@ -428,7 +428,7 @@
           user-select: none;
 }
 .live .surprise .add-get .second div {
-  background-color: #0000FF;
+  background-color: #0000ff;
   color: white;
   width: -moz-fit-content;
   width: fit-content;
@@ -449,8 +449,8 @@
   padding: 1rem;
   font-size: 1.5rem;
   background-color: transparent;
-  border: 2px solid #0000FF;
-  color: #0000FF;
+  border: 2px solid #0000ff;
+  color: #0000ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -484,7 +484,7 @@
   line-height: 150%;
 }
 .live .surprise .final .final-container .final-button {
-  background-color: #0000FF;
+  background-color: #0000ff;
   color: white;
   width: -moz-fit-content;
   width: fit-content;
@@ -499,7 +499,7 @@
 }
 .live article {
   padding: 7rem 0;
-  background-color: #D5D3FF;
+  background-color: #d5d3ff;
 }
 .live article h2 {
   font-size: 4rem;
@@ -567,7 +567,7 @@
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  color: #0000FF;
+  color: #0000ff;
 }
 .live article .article-third .inner-second {
   display: grid;
@@ -592,11 +592,11 @@
 }
 .live .all-features .features-first a {
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
   font-size: 2rem;
 }
 .live .all-features .features-second {
-  background-color: #FBFFA7;
+  background-color: #fbffa7;
   display: flex;
   flex-direction: column;
   justify-content: center;

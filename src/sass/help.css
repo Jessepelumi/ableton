@@ -1,12 +1,12 @@
 .help {
-  border-bottom: 2px solid #D3D3D3;
+  border-bottom: 2px solid #d3d3d3;
   padding-bottom: 3rem;
 }
 .help .help-nav {
   display: flex;
   gap: 1rem;
   padding: 1rem 3rem;
-  border-top: 2px solid #D3D3D3;
+  border-top: 2px solid #d3d3d3;
 }
 .help .help-nav a {
   text-decoration: none;
@@ -36,7 +36,7 @@
 }
 .help header .need-help-container div a {
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
   font-size: 1.1rem;
   display: block;
   padding-bottom: 0.5rem;
@@ -50,7 +50,7 @@
   width: 65%;
   outline: none;
   border: none;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
   font-size: inherit;
   padding: 1rem 1rem;
 }
@@ -59,8 +59,8 @@
   padding: 1rem 1rem;
   border: none;
   font-size: inherit;
-  background-color: #0000FF;
-  color: #D3D3D3;
+  background-color: #0000ff;
+  color: #d3d3d3;
 }
 .help section {
   display: grid;
@@ -82,7 +82,7 @@
 }
 .help section .learn-container div a {
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
   font-size: 1.1rem;
 }
 .help aside {
@@ -106,7 +106,7 @@
 .help aside .aside-container a {
   display: block;
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
   font-size: 1.1rem;
 }
 .help aside .aside-container .paragraph {
@@ -117,7 +117,7 @@
   font-size: inherit;
 }
 .help aside .aside-container .inner-aside {
-  background-color: #B1C5FF;
+  background-color: #b1c5ff;
   padding: 1.5rem;
   margin-bottom: 1rem;
 }

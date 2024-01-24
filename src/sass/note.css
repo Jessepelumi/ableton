@@ -22,9 +22,20 @@
 }
 .note section.section1 {
   display: flex;
+  position: relative;
 }
 .note section.section1 .section1-text {
   width: 40%;
+  background-color: #b6ffc0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding: 3rem;
+}
+.note section.section1 .section1-text h2 {
+  font-size: 3rem;
+  font-weight: lighter;
 }
 .note section.section1 .section1-video {
   width: 60%;

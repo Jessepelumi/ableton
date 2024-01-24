@@ -25,19 +25,19 @@
 }
 .footer-first .socials .facebook {
   color: white;
-  background-color: #0000FF;
+  background-color: #0000ff;
 }
 .footer-first .socials .twitter {
   color: white;
-  background-color: #B1C5FF;
+  background-color: #b1c5ff;
 }
 .footer-first .socials .youtube {
   color: white;
-  background-color: #FF0000;
+  background-color: #ff0000;
 }
 .footer-first .socials .instagram {
   color: white;
-  background-color: #FF764D;
+  background-color: #ff764d;
 }
 
 .footer-second {
@@ -65,7 +65,7 @@
   width: 65%;
   outline: none;
   border: none;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
   font-size: inherit;
   padding: 0.6rem 0.5rem;
 }
@@ -74,8 +74,8 @@
   padding: 0.6rem 0.5rem;
   border: none;
   font-size: inherit;
-  background-color: #0000FF;
-  color: #D3D3D3;
+  background-color: #0000ff;
+  color: #d3d3d3;
 }
 
 .footer-nav {

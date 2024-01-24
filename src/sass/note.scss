@@ -30,10 +30,29 @@
 
   section.section1 {
     display: flex;
+    position: relative;
+    //top: 20rem;
     .section1-text {
       width: 40%;
+      background-color: $lightgreen;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+      padding: 3rem;
+      //float: right;
+      //position: absolute;
+      // bottom: 0;
+      // left: 0;
+      h2 {
+        font-size: 3rem;
+        font-weight: lighter;
+      }
     }
     .section1-video {
+      //position: absolute;
+      //float: left;
+      //right: 0;
       width: 60%;
       .ideas3-video {
         a {

@@ -2,7 +2,7 @@
   display: flex;
   gap: 1rem;
   padding: 1rem 3rem;
-  border-top: 2px solid #D3D3D3;
+  border-top: 2px solid #d3d3d3;
 }
 .about nav a {
   text-decoration: none;
@@ -28,7 +28,7 @@
   transform: translateY(-50%) translateX(-50%);
   font-size: 8rem;
   font-weight: lighter;
-  color: #FF764D;
+  color: #ff764d;
 }
 .about .header .header-text {
   width: 45%;
@@ -41,7 +41,7 @@
 }
 .about .header .header-text h2 a {
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
 }
 .about .header .header-image2 {
   height: 100vh;
@@ -91,7 +91,7 @@
   width: 100%;
 }
 .about .header .header-video a figure div span {
-  color: #0000FF;
+  color: #0000ff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -108,7 +108,7 @@
 }
 .about .header .header-image3 .image3-first {
   width: 60%;
-  background-color: #B6FFC0;
+  background-color: #b6ffc0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,7 +148,7 @@
   position: relative;
 }
 .about .header .header-image5 .image5-container {
-  background-color: #D5D3FF;
+  background-color: #d5d3ff;
   width: 60%;
 }
 .about .header .header-image5 .image5-container .image5-first img {
@@ -186,7 +186,7 @@
 }
 .about .header .header-image6 div .image6-text {
   width: 40%;
-  background-color: #D5D3FF;
+  background-color: #d5d3ff;
   display: flex;
   padding: 2rem;
   justify-content: center;
@@ -206,5 +206,5 @@
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  color: #0000FF;
+  color: #0000ff;
 }/*# sourceMappingURL=about.css.map */

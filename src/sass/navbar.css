@@ -29,7 +29,7 @@
   color: inherit;
 }
 .navigation .nav-first .navigation-links div a:active {
-  color: #FF764D;
+  color: #ff764d;
 }
 .navigation .nav-first .navigation-links span {
   display: flex;
@@ -46,7 +46,7 @@
   color: inherit;
 }
 .navigation .nav-second a:first-child {
-  color: #0000FF;
+  color: #0000ff;
 }
 
 .more {
