@@ -61,7 +61,7 @@ const Note = () => {
         <div className="header-video">
           <figure>
             <div>
-              <video autoPlay controls loop>
+              <video autoPlay loop>
                 <source
                   src="https://cdn-resources.ableton.com/resources/videos/note/header-desktop.mp4"
                   type="video/mp4"
@@ -78,6 +78,7 @@ const Note = () => {
 
       <section className="section1">
         <div className="section1-text">
+          <div>
           <h2>Make new ideas a habit</h2>
           <p>
             Note is a place to start ideas, experiment with sounds and find
@@ -85,6 +86,7 @@ const Note = () => {
             you hone the skill of starting or ease into a creative headspace at
             the start of a session.
           </p>
+          </div>
         </div>
         <div className="section1-video">
           <div className="ideas3-video">
