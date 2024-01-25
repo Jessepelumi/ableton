@@ -13,7 +13,7 @@ const Navbar = () => {
   );
 
   return (
-    <div>
+    <div className="nav-body">
       <nav className="navigation">
         <div className="nav-first">
           <div className="navigation-logo">

@@ -1,3 +1,10 @@
+.nav-body {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 0.941);
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -26,9 +33,9 @@
 }
 .navigation .nav-first .navigation-links div a {
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
-.navigation .nav-first .navigation-links div a:active {
+.navigation .nav-first .navigation-links div a:active, .navigation .nav-first .navigation-links div a:focus {
   color: #ff764d;
 }
 .navigation .nav-first .navigation-links span {
